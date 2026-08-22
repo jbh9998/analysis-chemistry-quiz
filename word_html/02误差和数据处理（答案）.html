@@ -1,0 +1,3509 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>误差与数据处理答案（b）</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"页眉 字符";
+	margin:0cm;
+	text-align:center;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"页脚 字符";
+	margin:0cm;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+span.a
+	{mso-style-name:"页眉 字符";
+	mso-style-link:页眉;}
+span.a0
+	{mso-style-name:"页脚 字符";
+	mso-style-link:页脚;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection3
+	{page:WordSection3;}
+@page WordSection4
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection4
+	{page:WordSection4;}
+@page WordSection5
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection5
+	{page:WordSection5;}
+@page WordSection6
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection6
+	{page:WordSection6;}
+@page WordSection7
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection7
+	{page:WordSection7;}
+@page WordSection8
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection8
+	{page:WordSection8;}
+@page WordSection9
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection9
+	{page:WordSection9;}
+@page WordSection10
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection10
+	{page:WordSection10;}
+@page WordSection11
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection11
+	{page:WordSection11;}
+@page WordSection12
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection12
+	{page:WordSection12;}
+@page WordSection13
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection13
+	{page:WordSection13;}
+@page WordSection14
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection14
+	{page:WordSection14;}
+@page WordSection15
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection15
+	{page:WordSection15;}
+@page WordSection16
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection16
+	{page:WordSection16;}
+@page WordSection17
+	{size:595.3pt 841.9pt;
+	margin:70.9pt 2.0cm 2.0cm 70.9pt;
+	layout-grid:15.6pt;}
+div.WordSection17
+	{page:WordSection17;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style='word-wrap:break-word;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:15.0pt;font-family:宋体'>误差与数据处理答案（</span></b><b><span
+lang=EN-US style='font-size:15.0pt'>b</span></b><b><span style='font-size:15.0pt;
+font-family:宋体'>）</span></b></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>0201</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0202</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0203</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0204</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0205</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0206</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0207</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0208</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0209</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0210</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0211</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0212</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0213</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0214</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0215</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0216</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0217</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0218</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0219</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp; &nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0220</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0221</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0222</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0223</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0224</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0225</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0226</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0227</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0228</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection3 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection4 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>0229</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 1. </span><span
+style='font-family:宋体'>系统</span><span lang=EN-US>; 2. </span><span
+style='font-family:宋体'>过失</span><span lang=EN-US>;&nbsp; 3. </span><span
+style='font-family:宋体'>系统</span><span lang=EN-US>;&nbsp; 4. </span><span
+style='font-family:宋体'>随机</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0230</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>误差</span><span lang=EN-US> ,&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>测定结果与真实值差异</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>偏差</span><span lang=EN-US> ,&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>平行测定结果相互接近程度</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0231</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>系统</span><span lang=EN-US>
+,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>相对校准</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0232</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp; 1. </span><span
+style='font-family:宋体'>系统误差</span><span lang=EN-US>; 2. </span><span
+style='font-family:宋体'>随机误差</span><span lang=EN-US>;&nbsp; 3.</span><span
+style='font-family:宋体'>过失</span><span lang=EN-US>;&nbsp; 4. </span><span
+style='font-family:宋体'>过失</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0233</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>过失</span><span lang=EN-US> ,&nbsp; </span><span
+style='font-family:宋体'>系统误差</span><span lang=EN-US> ,&nbsp;&nbsp; </span><span
+style='font-family:宋体'>过失</span><span lang=EN-US> ,&nbsp;&nbsp; </span><span
+style='font-family:宋体'>随机误差</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0234</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; -2.5</span><span
+style='font-family:宋体'>％</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0235</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>不正确</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>因为单次测定结果的偏差和应当等于零</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>即</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style='position:relative;top:14.0pt'><img width=63 height=45
+src="02误差和数据处理（答案）.files/image001.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>而上述测量</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp; <span style='position:relative;
+top:14.0pt'><img width=52 height=45 src="02误差和数据处理（答案）.files/image002.png"></span>+0.04-0.02+0.01-0.01+0.06
+= 0.08 </span><span style='font-family:宋体'>≠</span><span lang=EN-US>0</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>显然计算不正确</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0236</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 15.8</span><span
+style='font-family:宋体'>％</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0237</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp; &nbsp;</span><span
+style='font-family:宋体'>标准差</span><i><span lang=EN-US style='font-family:Symbol'>s</span><span
+lang=EN-US>&nbsp; </span></i><span lang=EN-US>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>总体平均值</span><i><span lang=EN-US style='font-family:Symbol'>m</span></i></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>离散程度</span><span lang=EN-US>
+,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style='font-family:宋体'>集中趋势</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0238</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp; </span><span style='font-family:
+宋体'>偶然</span><span lang=EN-US>(</span><span style='font-family:宋体'>或随机</span><span
+lang=EN-US>) ; </span><span style='font-family:宋体'>集中趋势</span><span lang=EN-US>
+;&nbsp; </span><span style='font-family:宋体'>真值</span><span lang=EN-US> ;&nbsp; </span><span
+style='font-family:宋体'>分散程度</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0239</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <i>t</i></span><span
+style='font-family:宋体'>分布</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>正态分布</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>正负误差出现的概率相等</span><span lang=EN-US>;</span><span
+style='font-family:宋体'>小误差出现的概率大</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>大误差出现的概率小</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>特大误差出现的概率很小。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0240</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <i>t</i></span><span
+style='font-family:宋体'>分布</span><span lang=EN-US>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>t</i>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='position:relative;
+top:14.0pt'><img width=64 height=47 src="02误差和数据处理（答案）.files/image003.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>概率密度</span><span lang=EN-US>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>自由度</span><span lang=EN-US>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>f </i>= <i>n</i>-1</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0241</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>大</span><span lang=EN-US>,&nbsp;&nbsp;&nbsp; &nbsp;</span><span
+style='font-family:宋体'>小</span><span lang=EN-US>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>t</i> ,&nbsp;&nbsp;&nbsp;&nbsp; </span><span style='font-family:宋体'>正态</span><span
+lang=EN-US> , </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>低</span><span lang=EN-US>,&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>宽</span><span lang=EN-US>(</span><span style='font-family:
+宋体'>或大</span><span lang=EN-US>),&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>好</span><span lang=EN-US>(</span><span style='font-family:
+宋体'>或大</span><span lang=EN-US>)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0242</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 5.24%,&nbsp; 0.070%,&nbsp;
+0.035%,&nbsp;&nbsp; (5.24</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>0.11)</span><span style='font-family:宋体'>％</span><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>0243</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp; </span><span style='font-family:
+宋体'>置信区间</span><span lang=EN-US>:&nbsp; <span style='position:relative;
+top:12.0pt'><img width=332 height=41 src="02误差和数据处理（答案）.files/image004.png"></span>0244</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:13.0pt'><img width=163 height=47
+src="02误差和数据处理（答案）.files/image005.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>分散程度</span><span lang=EN-US>(</span><span
+style='font-family:宋体'>或精密度</span><span lang=EN-US>) </span></p>
+
+<p class=MsoNormal><span lang=EN-US>0245</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:12.0pt'><img width=176 height=41
+src="02误差和数据处理（答案）.files/image006.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>0246</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:1.0pt'><img width=69 height=19
+src="02误差和数据处理（答案）.files/image007.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <i>s</i> = 4.3</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-4</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <i>CV</i> = 2.1</span><span
+style='font-family:宋体'>‰</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:12.0pt'><img width=132 height=41
+src="02误差和数据处理（答案）.files/image008.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>0247</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:12.0pt'><img width=99 height=44
+src="02误差和数据处理（答案）.files/image009.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>0248</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>置信区间</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>置信度</span><span lang=EN-US>(</span><span
+style='font-family:宋体'>置信水平</span><span lang=EN-US>)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0249</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (1) 60.65% ~ 60.71%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (2) </span><span
+style='font-family:宋体'>无</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0250</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 20</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>增加试样质量</span><span lang=EN-US>, </span><span
+style='font-family:宋体'>适当减小标准溶液浓度</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0251</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>标准试样</span><span lang=EN-US>,&nbsp;&nbsp; </span><span
+style='font-family:宋体'>标准方法</span><span lang=EN-US>,&nbsp;&nbsp; </span><span
+style='font-family:宋体'>加入回收法</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0252</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 3,&nbsp; 10 g</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0253</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>第二</span><span lang=EN-US>
+,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0254</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 62.2%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0255</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (1)
+5.0;&nbsp;&nbsp;&nbsp; (2) 5.0000;&nbsp;&nbsp; (3) 5.0;&nbsp;&nbsp;&nbsp; (4)
+5.00</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0256</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (1) 21
+,&nbsp;&nbsp;&nbsp; (2) 3.5</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0257</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 0.03256 ;&nbsp; 0.8725
+;&nbsp; 1.034 ;&nbsp; 16.09</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0258</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>二位</span><span lang=EN-US>
+,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style='font-family:宋体'>四位</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0259</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 0.0160
+,&nbsp;&nbsp;&nbsp; 22</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0260</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>二</span><span lang=EN-US>
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style='font-family:宋体'>四</span><span
+lang=EN-US> ;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>无限</span><span lang=EN-US>
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>二</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0261</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 3
+,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 ,&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5
+,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0262</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; +0.27</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0263</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; +3</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection5 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0264</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(20.01+20.04+20.04+20.05+20.06)</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp; </span><span
+style='font-family:宋体'>平均值</span><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image010.png"></span>&nbsp;=
+</span><span style='font-family:宋体'>────────────────</span><span lang=EN-US> % </span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+= 20.04</span><span style='font-family:宋体'>％</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:6.0pt'><img width=184 height=28
+src="02误差和数据处理（答案）.files/image011.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>查表得置信度为</span><span lang=EN-US>95</span><span
+style='font-family:宋体'>％的</span><i><span lang=EN-US>t</span></i><span
+style='font-family:宋体'>值为</span><span lang=EN-US>2.78&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>所以</span><span lang=EN-US>&nbsp; <span style='position:
+relative;top:12.0pt'><img width=257 height=41
+src="02误差和数据处理（答案）.files/image012.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;=
+(20.04 </span><span style='font-family:宋体'>±</span><span lang=EN-US> 0.024)% </span><span
+style='font-family:宋体'>≈</span><span lang=EN-US> (20.04 </span><span
+style='font-family:宋体'>±</span><span lang=EN-US> 0.02)%&nbsp; </span></p>
+
+<p class=MsoNormal><span lang=EN-US>0265</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>因为</span> <span lang=EN-US><span style='position:relative;
+top:12.0pt'><img width=99 height=44 src="02误差和数据处理（答案）.files/image013.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>要使置信区间不超过</span><i><span lang=EN-US>s</span></i><span
+lang=EN-US>,</span><span style='font-family:宋体'>则必须</span> <span lang=EN-US><span
+style='position:relative;top:12.0pt'><img width=52 height=44
+src="02误差和数据处理（答案）.files/image014.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>即</span><span lang=EN-US>&nbsp; <span style='position:
+relative;top:6.0pt'><img width=61 height=25
+src="02误差和数据处理（答案）.files/image015.png"></span>&nbsp;&nbsp;</span><span
+style='font-family:宋体'>亦即</span> <span lang=EN-US><i><span style='position:
+relative;top:6.0pt'><img width=69 height=24
+src="02误差和数据处理（答案）.files/image016.png"></span></i>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>查有关</span><i><span lang=EN-US>t</span></i><span
+style='font-family:宋体'>值表</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>当</span><i><span lang=EN-US>n</span></i><span
+lang=EN-US>=6</span><span style='font-family:宋体'>时</span><span lang=EN-US>, <i>f</i>=5,
+<i>t</i><sup>2</sup>= 2.57<sup>2</sup> = 6.6,</span><span style='font-family:
+宋体'>不满足以上条件</span> </p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>n</i>=7</span><span style='font-family:宋体'>时</span><span lang=EN-US>, <i>f</i>=6,
+<i>t</i><sup>2</sup>= 2.45<sup>2</sup> = 6,&nbsp; </span><span
+style='font-family:宋体'>满足以上条件</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>故至少应平行测定</span><span lang=EN-US>7</span><span
+style='font-family:宋体'>次</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0266</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp;&nbsp; <span
+style='position:relative;top:12.0pt'><img width=88 height=41
+src="02误差和数据处理（答案）.files/image017.png"></span>&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;
+95</span><span style='font-family:宋体'>％置信度时</span><i><span lang=EN-US>u</span></i><span
+lang=EN-US>=1.96 </span></p>
+
+<p class=MsoNormal style='line-height:80%;page-break-after:avoid'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.12</span></p>
+
+<p class=MsoNormal style='line-height:80%;page-break-after:avoid'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>n</i> = 1 ,&nbsp;&nbsp; </span><span
+lang=EN-US style='font-family:Symbol'>m</span><span lang=EN-US> = (9.56</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>1.96</span><span
+style='font-family:宋体'>×───</span><span lang=EN-US>)% = (9.56</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.24)% </span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'></span><span lang=EN-US> 1</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.12</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>n</i> = 4 ,&nbsp;&nbsp; </span><span lang=EN-US style='font-family:Symbol'>m</span><span
+lang=EN-US> = (9.56</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>1.96</span><span style='font-family:宋体'>×───</span><span lang=EN-US>)%
+= (9.56</span><span style='font-family:宋体'>±</span><span lang=EN-US>0.12)% </span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'></span><span lang=EN-US> 2</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.12</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>n</i> = 9 ,&nbsp;&nbsp; </span><span lang=EN-US style='font-family:Symbol'>m</span><span
+lang=EN-US> = (9.56</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>1.96</span><span style='font-family:宋体'>×───</span><span lang=EN-US>)%
+= (9.56</span><span style='font-family:宋体'>±</span><span lang=EN-US>0.08)% </span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'></span><span lang=EN-US> 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>上述计算结果说明</span><span lang=EN-US>:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>在相同的置信度下</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>多次测定平均值的置信区间比单次测量的置信区间</span><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>要小</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>即所估计出的真值可能存在的范围较小</span><span lang=EN-US>(</span><span
+style='font-family:宋体'>估计得准确</span><span lang=EN-US>),</span><span
+style='font-family:宋体'>说明平均值</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>比单次测量值要可靠</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>更接近真值。测定次数愈多</span><span lang=EN-US>, </span><span
+style='font-family:宋体'>所估计出的真值范</span><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>围愈小</span><span lang=EN-US>, </span><span
+style='font-family:宋体'>平均值愈接近真值。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0267</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image018.png"></span></span><sub><span
+style='font-family:宋体'>标</span> </sub><span lang=EN-US>=
+8.95%&nbsp;&nbsp;&nbsp; <i>s</i></span><sub><span style='font-family:宋体'>标</span>
+</sub><span lang=EN-US>= 0.060%&nbsp;&nbsp;&nbsp; <i>f</i>=2</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image018.png"></span></span><sub><span
+style='font-family:宋体'>新</span> </sub><span lang=EN-US>=
+9.02%&nbsp;&nbsp;&nbsp; <i>s</i></span><sub><span style='font-family:宋体'>新</span>
+</sub><span lang=EN-US>= 0.066%&nbsp;&nbsp;&nbsp; <i>f</i>=3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(9.02-8.95)%&nbsp;&nbsp; </span><span style='font-family:宋体'>─────</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp; <i>t</i>
+= </span><span style='font-family:宋体'>───────</span> <span lang=EN-US
+style='font-size:10.0pt;line-height:80%;font-family:Symbol'>&Ouml;</span><span
+lang=EN-US> 3</span><span style='font-family:宋体'>×</span><span lang=EN-US>4/(3+4)&nbsp;
+= 1.43</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(6.3</span><span style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-2</sup>)%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>查</span><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0.05,5</span></sub><span lang=EN-US> = 2.57 &gt; <i>t</i></span><sub><span
+style='font-family:宋体'>计算</span></sub><span lang=EN-US>,</span><span
+style='font-family:宋体'>新方法未引入系统误差</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>可以被</span><span lang=EN-US>&nbsp; </span></p>
+
+<p class=MsoNormal><span style='font-family:宋体'>接受。平均值的置信区间为</span><span
+lang=EN-US>:</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span
+style='position:relative;top:13.0pt'><img width=324 height=41
+src="02误差和数据处理（答案）.files/image019.png"></span>&nbsp;&nbsp;&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0268</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+40.00+40.15+40.16+40.18+40.20</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;
+(1) <span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image018.png"></span>&nbsp;= </span><span
+style='font-family:宋体'>────────────────</span><span lang=EN-US> = 40.14(%)</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>s</i>
+= 0.079%</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='font-family:宋体'>│</span><span
+lang=EN-US><span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image018.png"></span>-40.00</span><span
+style='font-family:宋体'>│</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>t</i> = </span><span style='font-family:宋体'>───────</span><span lang=EN-US>
+= 1.77 &gt; <i>t</i><sub>0.05,5</sub>(=1.67)</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.079</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>所以</span><span lang=EN-US>40.00</span><span
+style='font-family:宋体'>值应该舍弃</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (2)&nbsp;&nbsp; <i>t</i></span><span
+style='font-family:宋体'>检验</span><span lang=EN-US>:</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40.15+40.16+40.18+40.20</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'></span> <span lang=EN-US>&nbsp; <span style='position:
+relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image018.png"></span>&nbsp;= </span><span
+style='font-family:宋体'>─────────────</span><span lang=EN-US> = 40.17(%)</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; <i>s </i>= 0.022%</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;line-height:80%'><span lang=EN-US>&nbsp;&nbsp;
+&nbsp; <span style='position:relative;top:12.0pt'><img width=380 height=44
+src="02误差和数据处理（答案）.files/image020.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </span><span
+style='font-family:宋体'>新方法不引起系统误差</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>可以被承认。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0269</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span lang=EN-US>; </span><span
+style='font-family:宋体'>点</span><span lang=EN-US>(</span><span style='font-family:
+宋体'>或定值</span><span lang=EN-US>)</span><span style='font-family:宋体'>；</span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span lang=EN-US>; </span><span
+style='font-family:宋体'>区间</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0270</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 2.28%; 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0271 </span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><i><span lang=EN-US>c</span></i><span
+lang=EN-US>(1/5KMnO<sub>4</sub>)=<span style='position:relative;top:15.0pt'><img
+width=187 height=43 src="02误差和数据处理（答案）.files/image021.png"></span>&nbsp;&nbsp; </span><span
+style='font-family:宋体'>可简写为：</span><i><span lang=EN-US>c</span></i><span
+lang=EN-US>=<i>k</i><span style='position:relative;top:12.0pt'><img width=20
+height=41 src="02误差和数据处理（答案）.files/image022.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US><span
+style='position:relative;top:14.0pt'><img width=100 height=41
+src="02误差和数据处理（答案）.files/image023.png"></span>=<span style='position:relative;
+top:12.0pt'><img width=220 height=41 src="02误差和数据处理（答案）.files/image024.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0272</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US><span
+style='position:relative;top:3.0pt'><img width=16 height=23
+src="02误差和数据处理（答案）.files/image025.png"></span>=24.64mL</span><span
+style='font-family:宋体'>，</span> <i><span lang=EN-US>S</span></i><sub><span
+lang=EN-US>V</span></sub><span lang=EN-US>=0.022&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+style='position:relative;top:28.0pt'><img width=384 height=61
+src="02误差和数据处理（答案）.files/image026.png"></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt'><span
+style='font-family:宋体'>可将上式简写为：</span><i><span lang=EN-US>w</span></i><span
+lang=EN-US>=<i>k</i><span style='position:relative;top:12.0pt'><img width=28
+height=41 src="02误差和数据处理（答案）.files/image027.png"></span>,</span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:21.0pt'><span
+lang=EN-US><span style='position:relative;top:18.0pt'><img width=517 height=55
+src="02误差和数据处理（答案）.files/image028.png"></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left'><span lang=EN-US>0273</span></p>
+
+<p class=MsoNormal align=left style='margin-left:56.5pt;text-align:left;
+text-indent:-15.75pt'><span lang=EN-US>(1)<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span><i><span lang=EN-US>n</span></i><span lang=EN-US>=6, <span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image029.png"></span>&nbsp;=60.56%, <i>s</i>=0.12%</span></p>
+
+<p class=MsoNormal align=left style='margin-left:40.75pt;text-align:left'><sup><span
+lang=EN-US><span style='position:relative;top:12.0pt'><img width=250 height=41
+src="02误差和数据处理（答案）.files/image030.png"></span>&nbsp;&nbsp; </span></sup><span
+lang=EN-US>60.32</span><span style='font-family:宋体'>应舍去</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>（</span><span lang=EN-US>2</span><span style='font-family:
+宋体'>）</span><i><span lang=EN-US>n</span></i><span lang=EN-US>=5, <span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image029.png"></span>=60.61%,&nbsp; <i>s </i>=0.036%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<sup><span
+style='position:relative;top:14.0pt'><img width=323 height=43
+src="02误差和数据处理（答案）.files/image031.png"></span></sup></span></p>
+
+<p class=MsoNormal><sup><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></sup><span lang=EN-US>&nbsp;&nbsp;(3)&nbsp; <sup><span
+style='position:relative;top:12.0pt'><img width=295 height=47
+src="02误差和数据处理（答案）.files/image032.png"></span>&nbsp;&nbsp;&nbsp;&nbsp;</sup></span><span
+style='font-family:宋体'>测量无系统误差</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection6 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>0274</span></p>
+
+<p class=MsoNormal style='margin-left:13.25pt;text-indent:8.0pt'><span
+lang=EN-US>1.678</span><span style='font-family:宋体'>，</span><span lang=EN-US>1.678</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0275</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>=</span><span
+style='font-family:宋体'>，</span><span lang=EN-US> 5.6</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<span style='position:relative;
+top:7.0pt'><img width=9 height=25 src="02误差和数据处理（答案）.files/image033.png"></span><span
+style='position:relative;top:2.0pt'><img width=19 height=20
+src="02误差和数据处理（答案）.files/image034.png"></span>mol/L, 1.8</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10</span><sup><span
+style='font-family:宋体'>－</span><span lang=EN-US>4</span></sup><span lang=EN-US>mol/L
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0276</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>=,&nbsp; 2.60</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0277</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>三</span><span lang=EN-US>, 4.745</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0278</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>二，</span><span lang=EN-US>7.6</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup>mol/L</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0279</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.457,
+2.456</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0280</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.25%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0281</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0282</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>2.500</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-2</sup>L</span><span
+style='font-family:宋体'>或</span><span lang=EN-US>25.00mL</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0283</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.19%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0284</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 32.2%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0285</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0286</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0287</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.2500g,
+24.10mL</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0288</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.5×10<sup>-10</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>0289</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>高，不一定</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0290</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0291</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0292</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image029.png"></span>=5.02,&nbsp; <i>E</i>=5.02-5.03=</span><span
+style='font-family:宋体'>－</span><span lang=EN-US>0.01mg/L, </span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;&nbsp;&nbsp;
+<span style='position:relative;top:15.0pt'><img width=153 height=41
+src="02误差和数据处理（答案）.files/image035.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>0293</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：（</span><span
+lang=EN-US>a</span><span style='font-family:宋体'>）</span><span lang=EN-US>10mg</span><span
+style='font-family:宋体'>试样含</span><span lang=EN-US>Br: 10</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10%=1.0mg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>相对误差</span><span lang=EN-US><span style='position:relative;
+top:12.0pt'><img width=139 height=37 src="02误差和数据处理（答案）.files/image036.png"></span> &nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>绝对误差</span><span lang=EN-US><span style='position:relative;
+top:12.0pt'><img width=156 height=38 src="02误差和数据处理（答案）.files/image037.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+style='font-family:宋体'>同理得</span><span lang=EN-US>:&nbsp;&nbsp; </span><span
+style='font-family:宋体'>（</span><span lang=EN-US>b</span><span style='font-family:
+宋体'>）－</span><span lang=EN-US>4.0%,</span><span style='font-family:宋体'>－</span><span
+lang=EN-US>0.4(%)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (C) </span><span
+style='font-family:宋体'>－</span><span lang=EN-US>2.0%, </span><span
+style='font-family:宋体'>－</span><span lang=EN-US>0.2(%)</span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US>0294</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;layout-grid-mode:char'><span
+lang=EN-US>(C)</span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US>0295</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;layout-grid-mode:char'><span
+style='font-family:宋体'>系统误差，随机误差</span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US>0296</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;layout-grid-mode:char'><span
+style='font-family:宋体'>小，不一定</span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US>0297</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;layout-grid-mode:char'><span
+style='font-family:宋体'>随机，系统</span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US>0298</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>－</span><span
+lang=EN-US>0.02(%)</span><span style='font-family:宋体'>，－</span><span
+lang=EN-US>1.5%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2201</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2202</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2203</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2205</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2206</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2207</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>系统</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2208</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; -0.05% ,&nbsp; -0.09%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2209</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>不能</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>只能说不存在系统误差</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>但人眼判断颜色有±</span><span lang=EN-US>0.3pH(</span><span
+style='font-family:宋体'>或</span><span lang=EN-US>pM)</span><span
+style='font-family:宋体'>的不确定性</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>总有随机误差存在</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>故不会为零。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2210</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; B,A</span><span
+style='font-family:宋体'>和</span><span lang=EN-US>C,D</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2211</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-0.29</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup></span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp; <i>E</i><sub>r</sub><i>
+</i>= </span><span style='font-family:宋体'>────────×</span><span lang=EN-US>100%=-0.24%</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.20</span><span style='font-family:宋体'>×</span><span lang=EN-US>60%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2212</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:  (a) <span style='position:
+relative;top:14.0pt'><img width=128 height=45
+src="02误差和数据处理（答案）.files/image038.png"></span>%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b) <span style='position:relative;top:13.0pt'><img width=144 height=45
+src="02误差和数据处理（答案）.files/image039.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(c) (<i>s</i>/<span style='position:relative;top:1.0pt'><img width=11
+height=19 src="02误差和数据处理（答案）.files/image040.png"></span>)</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>100% = 0.48%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(d) <i>E </i>= 47.15%-(35.45/74.55)</span><span style='font-family:宋体'>×</span><span
+lang=EN-US>100%</span></p>
+
+<p class=MsoNormal style='text-indent:63.0pt'><span lang=EN-US>&nbsp;= -0.40%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(e) <i>E</i><sub>r</sub><i> </i>= (-0.40/47.55)</span><span style='font-family:
+宋体'>×</span><span lang=EN-US>100% = -0.84%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2213</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:  <span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span>=
+0.029 (%)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <i>E
+</i>=<span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span>-<i>x</i></span><sub><span
+lang=EN-US style='font-size:7.5pt'>T</span><span lang=EN-US> </span></sub><span
+lang=EN-US>= 0.029-0.030 = -0.001 (%)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <i>E</i><sub>r
+</sub>= (<i>E</i>/<i>x</i></span><sub><span lang=EN-US style='font-size:7.5pt'>T</span></sub><span
+lang=EN-US>)</span><span style='font-family:宋体'>×</span><span lang=EN-US>100% </span></p>
+
+<p class=MsoNormal style='text-indent:52.5pt'><span lang=EN-US>= (-0.001/0.030)</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>100% = -3.3%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2214</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2215</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2216</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2217</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2218</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2219</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2220</span></p>
+
+<p class=MsoNormal style='text-indent:21.75pt'><span style='font-family:宋体'>总体平均值</span><span
+lang=EN-US>,</span><span style='font-family:宋体'>总体标准差</span><span lang=EN-US>,</span></p>
+
+<p class=MsoNormal style='text-indent:21.75pt'><span lang=EN-US>&nbsp;<i>y </i>=
+[1/(</span><i><span lang=EN-US style='font-family:Symbol'>s</span></i><span
+lang=EN-US>(2</span><span lang=EN-US style='font-family:Symbol'>p</span><span
+lang=EN-US>)<sup>1/2</sup>)]exp[-(<i>x</i>-</span><i><span lang=EN-US
+style='font-family:Symbol'>m</span></i><span lang=EN-US>)<sup>2</sup>/(2</span><i><span
+lang=EN-US style='font-family:Symbol'>s</span></i><sup><span lang=EN-US>2</span></sup><span
+lang=EN-US>)] </span></p>
+
+<p class=MsoNormal><span lang=EN-US>2221</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>m</span><span lang=EN-US>, </span></i><i><span
+lang=EN-US style='font-family:Symbol'>s</span><span lang=EN-US> </span></i></p>
+
+<p class=MsoNormal><span lang=EN-US>2222</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2223</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2224</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2225</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2226</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2227</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2228</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2229</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2230</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2231</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>好</span><span lang=EN-US>(</span><span style='font-family:
+宋体'>或高</span><span lang=EN-US>),</span><span style='font-family:宋体'>小</span><span
+lang=EN-US>,</span><span style='font-family:宋体'>减小</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>变化</span><span lang=EN-US>,4</span><span
+style='font-family:宋体'>～</span><span lang=EN-US>6</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2232</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:  <span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span>&nbsp;=
+0.1085(mol/L)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>d
+</i>= (1/3)(0.0002+0.0001)</span></p>
+
+<p class=MsoNormal style='text-indent:73.5pt'><span lang=EN-US>&nbsp;=
+0.0001(mol/L)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <i>d</i>/<span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span>= (0.0001/0.1085)</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>100% = 0.09% </span></p>
+
+<p class=MsoNormal><span lang=EN-US>2233</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp;&nbsp; <span
+style='position:relative;top:14.0pt'><img width=144 height=45
+src="02误差和数据处理（答案）.files/image041.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style='position:relative;top:14.0pt'><img width=188 height=45
+src="02误差和数据处理（答案）.files/image042.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (<i>d</i>/<span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span>)</span><span style='font-family:
+宋体'>×</span><span lang=EN-US>100% = (0.012/0.23)</span><span style='font-family:
+宋体'>×</span><span lang=EN-US>100% = 5.2% </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+style='position:relative;top:13.0pt'><img width=167 height=49
+src="02误差和数据处理（答案）.files/image043.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>CV </i>= (<i>s</i>/<span style='position:relative;top:1.0pt'><img width=11
+height=19 src="02误差和数据处理（答案）.files/image040.png"></span>)</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>100% = 7.4% </span></p>
+
+<p class=MsoNormal><span lang=EN-US>2234</span></p>
+
+<p class=MsoNormal style='margin-left:115.5pt;text-indent:-115.5pt'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span style='font-family:宋体'>解</span><span
+lang=EN-US>: (a) </span><i><span lang=EN-US style='font-family:Symbol'>m</span></i><span
+lang=EN-US> = <span style='position:relative;top:1.0pt'><img width=11
+height=19 src="02误差和数据处理（答案）.files/image040.png"></span></span><span
+style='font-family:宋体'>±</span><i><span lang=EN-US>ts</span></i><span
+lang=EN-US>/<i>n</i><sup>1/2 </sup>= 58.62</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>2.02</span><span style='font-family:宋体'>×</span><span lang=EN-US>0.11/6<sup>1/2
+</sup>= (58.62</span><span style='font-family:宋体'>±</span><span lang=EN-US>0.09
+)(%)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;(b) </span><i><span lang=EN-US
+style='font-family:Symbol'>m</span></i><span lang=EN-US> = 58.62</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>3.18</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.11/4<sup>1/2 </sup>= (58.62</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.17)(%)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2235</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp; <i>Q </i>= (<i>x<sub>n</sub></i>-<i>x<sub>n</sub></i><sub>-1</sub>)/(<i>x<sub>n</sub></i>-<i>x</i><sub>1</sub>)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+= (29.24-29.08)/(29.24-28.97) = 0.59</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>Q</i>(0.90,4) = 0.76&gt;0.59</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>以</span><span lang=EN-US>10%</span><span
+style='font-family:宋体'>的危险率保留</span><span lang=EN-US>29.24</span><span
+style='font-family:宋体'>这个值</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; <span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span>&nbsp;= 29.08, <i>s </i>= 0.12</span></p>
+
+<p class=MsoNormal style='text-indent:27.0pt'><i><span lang=EN-US
+style='font-family:Symbol'>m</span><span lang=EN-US> </span></i><span
+lang=EN-US>= <span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>±</span><i><span lang=EN-US>ts</span></i><span lang=EN-US>/<i>n</i><sup>1/2
+</sup>= 29.08</span><span style='font-family:宋体'>±</span><span lang=EN-US>2.35</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.12/4<sup>1/2</sup></span></p>
+
+<p class=MsoNormal style='text-indent:90.0pt'><sup><span lang=EN-US>&nbsp;</span></sup><span
+lang=EN-US>= (29.08</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>0.14)(%) </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; 90%</span><span
+style='font-family:宋体'>的把握认为置信区间为</span><span lang=EN-US>(28.94~29.22)%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2236</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp; <span style='position:
+relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span>&nbsp;= 10.79</span></p>
+
+<p class=MsoNormal style='text-indent:32.25pt'><i><span lang=EN-US>E</span></i><sub><span
+lang=EN-US>r</span></sub><i><span lang=EN-US> </span></i><span lang=EN-US>= [(<span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span>-<i>x</i></span><sub><span
+lang=EN-US style='font-size:7.5pt'>T</span></sub><span lang=EN-US>)/<i>x</i></span><sub><span
+lang=EN-US style='font-size:7.5pt'>T</span></sub><span lang=EN-US>]</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>100%</span></p>
+
+<p class=MsoNormal style='text-indent:42.75pt'><span lang=EN-US>&nbsp;=
+[(10.79-10.77)/10.77]</span><span style='font-family:宋体'>×</span><span
+lang=EN-US>100% = 0.19%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>s
+</i>= 0.042</span></p>
+
+<p class=MsoNormal style='margin-left:52.5pt;text-indent:-52.5pt'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>m</span><span lang=EN-US> </span></i><span
+lang=EN-US>= <span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>±</span><i><span lang=EN-US>ts</span></i><span lang=EN-US>/<i>n</i><sup>1/2
+</sup>= 10.79</span><span style='font-family:宋体'>±</span><span lang=EN-US>2.31</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.042/9<sup>1/2 </sup>= (10.79</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.03)(%) </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>即</span><span lang=EN-US>10.76%~10.82%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span><span
+style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握断定区间</span><span lang=EN-US>(10.76%~10.82%)</span><span
+style='font-family:宋体'>将把纯明矾含铝量的真值包含在内</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2238</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>: <span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span>&nbsp;=
+40.50, <i>s</i> = 0.06</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>P</i>
+= 90%: <i>t</i>(0.10,3) = 2.35</span></p>
+
+<p class=MsoNormal style='margin-left:115.5pt;text-indent:-115.5pt'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span lang=EN-US> = <span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>±</span><i><span lang=EN-US>ts</span></i><span lang=EN-US>/<i>n</i><sup>1/2</sup>
+= 40.50</span><span style='font-family:宋体'>±</span><span lang=EN-US>2.35</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.06/4<sup>1/2</sup> =( 40.50</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.07)(%)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>P</i>
+= 95%: <i>t</i><sub>0.05,3</sub> = 3.18</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span lang=EN-US> = <span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>±</span><i><span lang=EN-US>ts</span></i><span lang=EN-US>/<i>n</i><sup>1/2</sup>
+= 40.50</span><span style='font-family:宋体'>±</span><span lang=EN-US>3.18</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.06/4<sup>1/2</sup> </span></p>
+
+<p class=MsoNormal style='text-indent:105.0pt'><span lang=EN-US>= (40.50</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.10)(%)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2239</span></p>
+
+<p class=MsoNormal style='text-indent:21.75pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>: <i>P</i> = 90%: </span><i><span lang=EN-US style='font-family:
+Symbol'>m</span></i><span lang=EN-US> = <span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span></span><span
+style='font-family:宋体'>±</span><i><span lang=EN-US>u</span></i><span
+lang=EN-US style='font-family:Symbol'>s</span><span lang=EN-US>/<i>n</i><sup>1/2
+</sup></span></p>
+
+<p class=MsoNormal style='text-indent:84.75pt'><span lang=EN-US>= 51.46</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>1.64</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.041/3<sup>1/2 </sup></span></p>
+
+<p class=MsoNormal style='text-indent:84.75pt'><span lang=EN-US>= (51.46</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.04)(%)</span></p>
+
+<p class=MsoNormal style='text-indent:37.5pt'><i><span lang=EN-US>P </span></i><span
+lang=EN-US>= 95%: </span><i><span lang=EN-US style='font-family:Symbol'>m</span></i><span
+lang=EN-US> = 51.46</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>1.96</span><span style='font-family:宋体'>×</span><span lang=EN-US>0.041/3<sup>1/2
+</sup></span></p>
+
+<p class=MsoNormal style='text-indent:90.0pt'><span lang=EN-US>= (51.46</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.05)(%) </span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-10.5pt'><span
+lang=EN-US>&nbsp;</span><span style='font-family:宋体'>置信度提高</span><span
+lang=EN-US>,</span><span style='font-family:宋体'>判断的把握增加</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>但置信区间增大了。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2240</span></p>
+
+<p class=MsoNormal style='text-indent:21.75pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>:&nbsp; <i>t </i>= (|<span style='position:relative;top:1.0pt'><img
+width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span>-</span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span lang=EN-US>|)/(<i>s</i>/<i>n</i><sup>1/2</sup>)
+</span></p>
+
+<p class=MsoNormal style='text-indent:53.25pt'><span lang=EN-US>=
+(0.109-0.105)/(0.008/4<sup>1/2</sup>) = 1.00</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i><sub>0.95,3</sub>
+= 3.18&gt;1.00</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'></span><span lang=EN-US><span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span></span><span
+style='font-family:宋体'>与<i>μ</i>之差不显著</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>无系统误差存在</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i>
+= 0.004/(0.008/20<sup>1/2</sup>) = 2.24</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i><sub>0.95,20</sub>
+= 2.09&lt;2.24</span></p>
+
+<p class=MsoNormal style='text-indent:27.0pt'><span style='font-family:宋体'></span><span
+lang=EN-US><span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>与<i>μ</i>之差显著</span><span lang=EN-US>,</span><span style='font-family:宋体'>有系统误差存在</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2241&nbsp; </span><span style='font-family:
+宋体'>解</span><span lang=EN-US>: <span style='position:relative;top:1.0pt'><img
+width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span>&nbsp;= 0.158
+(mg/mL)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>s</i>
+= 4.0</span><span style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup>(mg/mL)</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-42.0pt'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; </span><i><span lang=EN-US
+style='font-family:Symbol'>m</span></i><span lang=EN-US> = <span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>±</span><i><span lang=EN-US>ts</span></i><span lang=EN-US>/<i>n</i><sup>1/2</sup>
+= 0.158</span><span style='font-family:宋体'>±</span><span lang=EN-US>3.18</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>4.0</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup>/4<sup>1/2</sup>
+</span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:52.5pt'><span
+lang=EN-US>= (0.158</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>0.006)(mg/mL) </span></p>
+
+<p class=MsoNormal><span lang=EN-US>2242</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:  </span><span
+style='font-family:宋体'>置信区间为</span><i><span lang=EN-US style='font-family:Symbol'>m</span></i><span
+lang=EN-US> = <span style='position:relative;top:1.0pt'><img width=11
+height=19 src="02误差和数据处理（答案）.files/image040.png"></span></span><span
+style='font-family:宋体'>±</span><i><span lang=EN-US>u</span></i><i><span
+lang=EN-US style='font-family:Symbol'>s</span></i><span lang=EN-US>/<i>n</i><sup>1/2</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </span><span
+style='font-family:宋体'>故</span><i><span lang=EN-US>u</span></i><i><span
+lang=EN-US style='font-family:Symbol'>s</span></i><span lang=EN-US>/<i>n</i><sup>1/2</sup>
+= 0.50</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <i>n</i><sup>1/2</sup>
+= 1.96</span><span style='font-family:宋体'>×</span><span lang=EN-US>0.80/0.50&nbsp;&nbsp;&nbsp;&nbsp;
+<i>n</i></span><span style='font-family:宋体'>≈</span><span lang=EN-US>10(</span><span
+style='font-family:宋体'>次</span><span lang=EN-US>)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2243</span></p>
+
+<p class=MsoNormal style='margin-left:52.5pt;text-indent:-52.5pt'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span style='font-family:宋体'>解</span><span
+lang=EN-US>: <i>u</i> = (<span style='position:relative;top:1.0pt'><img
+width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span>-</span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span lang=EN-US>)/(</span><i><span
+lang=EN-US style='font-family:Symbol'>s</span></i><span lang=EN-US>/<i>n</i><sup>1/2</sup>)
+= (0.532-0.520)/(0.07/4<sup>1/2</sup>) = 0.343</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>u</i><sub>0.95</sub>
+= 1.96&gt;0.343&nbsp; </span><span style='font-family:宋体'>表明</span><span
+lang=EN-US><span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>与</span><i><span lang=EN-US style='font-size:10.0pt;font-family:Symbol'>m</span></i><span
+style='font-family:宋体'>之差不显著</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>分析结果合格</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2244</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>: <span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image040.png"></span>&nbsp;=
+7.6mmol/L&nbsp; <i>s</i> = 0.084mmol/L</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>CV</i>
+= (<i>s</i>/<span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span>)</span><span style='font-family:
+宋体'>×</span><span lang=EN-US>100% = 1.1%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span lang=EN-US> = <span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>±</span><i><span lang=EN-US>ts</span></i><span lang=EN-US>/<i>n</i><sup>1/2</sup>
+= 7.6</span><span style='font-family:宋体'>±</span><span lang=EN-US>2.26</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.084/10<sup>1/2</sup> </span></p>
+
+<p class=MsoNormal style='text-indent:105.0pt'><span lang=EN-US>= (7.6</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.06)&nbsp; (mmol/L)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;<i>t</i> = (<span style='position:
+relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span>-</span><i><span lang=EN-US
+style='font-family:Symbol'>m</span></i><span lang=EN-US>)/(<i>s</i>/10<sup>1/2</sup>)
+= (7.6-6.1)/(0.084/10<sup>1/2</sup>) = 33.88</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i><sub>0.95,9</sub>
+= 2.26&lt;33.88</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image040.png"></span></span><span style='font-family:
+宋体'>与</span><i><span lang=EN-US style='font-size:10.0pt;font-family:Symbol'>m</span></i><span
+style='font-family:宋体'>之差显著</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>把握说此人血糖含量不正常。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2245</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>: </span><span
+style='font-family:宋体'>先检验</span><i><span lang=EN-US>s</span></i><sub><span
+lang=EN-US>1</span></sub><span style='font-family:宋体'>与</span><i><span
+lang=EN-US>s</span></i><sub><span lang=EN-US>2</span></sub><span
+style='font-family:宋体'>差异是否显著</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>F</i>
+= <i>s</i><sub>1</sub><sup>2</sup>/<i>s</i><sub>2</sub><sup>2</sup> = 12<sub>1</sub><sup>2</sup>/7<sub>2</sub><sup>2</sup>
+= 2.94 </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>a</span></i><span lang=EN-US> = 0.10,</span><span
+style='font-family:宋体'>双边检验</span><span lang=EN-US>,<i>F</i></span><span
+style='font-family:宋体'>表值用</span><i><span lang=EN-US>F</span></i><sub><span
+lang=EN-US>0.05,5,4</span></sub><span lang=EN-US> = 6.26&gt;2.94,</span><span
+style='font-family:宋体'>差异不显著</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>s</i>
+= {[<i>s</i><sub>1</sub><sup>2</sup>(<i>n</i><sub>1</sub>-1)+<i>s</i><sub>2</sub><sup>2</sup>(<i>n</i><sub>2</sub>-1)]/(<i>n</i><sub>1</sub>+<i>n</i><sub>2</sub>-2)}<sup>3/2</sup>
+= 10 </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i>
+= [(<span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span><sub>1</sub>-<span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span><sub>2</sub>)/<i>s</i>][<i>n</i><sub>1</sub><i>n</i><sub>2</sub>/(<i>n</i><sub>1</sub>+<i>n</i><sub>2</sub>)]<sup>1/2</sup>
+= 1.32</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i><sub>0.10,9</sub>
+= 1.83&gt;1.32&nbsp; </span><span style='font-family:宋体'>表明</span><span
+lang=EN-US><span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span><sub>1</sub></span><span
+style='font-family:宋体'>与</span><span lang=EN-US><span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span><sub>2</sub></span><span
+style='font-family:宋体'>无显著性差异。</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection7 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>2246:&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp; (a) <i>F</i> = <i>s</i><sub>1</sub><sup>2</sup>/<i>s</i><sub>2</sub><sup>2</sup>
+= 1.40 </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>F</i><sub>0.05,19,19</sub> = 2.18&gt;1.40</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>s</i><sub>1</sub></span><span style='font-family:宋体'>与</span><i><span
+lang=EN-US>s</span></i><sub><span lang=EN-US>2</span></sub><span
+style='font-family:宋体'>不显著</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>作此判断的把握为</span><span lang=EN-US>90%(</span><span
+style='font-family:宋体'>双边检验</span><span lang=EN-US>)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style='position:relative;top:21.0pt'><img width=404 height=56
+src="02误差和数据处理（答案）.files/image045.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>t</i><sub>0.95,38</sub> = 2.02&gt;1.31</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span><sub>1</sub></span><span
+style='font-family:宋体'>与</span><span lang=EN-US><span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span><sub>2</sub></span><span
+style='font-family:宋体'>差异不显著</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>作此判断的把握为</span><span lang=EN-US>95% </span></p>
+
+<p class=MsoNormal><span lang=EN-US>2247</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>: <span style='position:relative;
+top:10.0pt'><img width=451 height=41 src="02误差和数据处理（答案）.files/image046.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i><sub>0.95,8</sub>
+= 2.31</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i>
+&gt; <i>t</i><sub>0.95,8</sub> , <span style='position:relative;top:1.0pt'><img
+width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span><sub>1</sub></span><span
+style='font-family:宋体'>与</span><span lang=EN-US><span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span><sub>2</sub></span><span
+style='font-family:宋体'>有显著性差异</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2248</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:  <i>Q</i> = (<i>x</i><sub>4</sub>-<i>x</i><sub>3</sub>)/(<i>x</i><sub>4</sub>-<i>x</i><sub>1</sub>)
+= (14.64-14.46)/(14.64-14.41) = 0.78 </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>表值</span><i><span lang=EN-US>Q</span></i><sub><span
+lang=EN-US>0.90,4</span></sub><span lang=EN-US> = 0.76</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Q</i>
+&gt; <i>Q</i><sub>0.90,4</sub>&nbsp; </span><span style='font-family:宋体'>故</span><span
+lang=EN-US>14.64</span><span style='font-family:宋体'>应舍弃</span><span lang=EN-US>
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2249</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp; <i>P</i> = 95%&nbsp; <i>u</i>
+= 1.96</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(a) </span><i><span lang=EN-US style='font-family:Symbol'>m</span><span
+lang=EN-US> </span></i><span lang=EN-US>= <span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span></span><span
+style='font-family:宋体'>±</span><i><span lang=EN-US>u</span></i><i><span
+lang=EN-US style='font-family:Symbol'>s</span></i><span lang=EN-US> = (5.9</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>1.96</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.25)</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-10</sup> = (5.9</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.5)</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-10</sup> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>即</span><span lang=EN-US>&nbsp; 5.4</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-10</sup>~6.4</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-10</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(b)
+</span><i><span lang=EN-US style='font-family:Symbol'>m</span></i><span
+lang=EN-US> = <span style='position:relative;top:1.0pt'><img width=11
+height=19 src="02误差和数据处理（答案）.files/image044.png"></span></span><span
+style='font-family:宋体'>±</span><i><span lang=EN-US>u</span></i><i><span
+lang=EN-US style='font-family:Symbol'>s</span></i><span lang=EN-US>/<i>n</i><sup>1/2</sup>
+= (5.9</span><span style='font-family:宋体'>±</span><span lang=EN-US>1.96</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>0.25/3<sup>1/2</sup>)</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-10</sup> = (5.9</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.3)</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-10</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>即</span><span lang=EN-US>&nbsp; 5.6</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-10</sup>~6.2</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-10</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>2250</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:  <i>s</i> = </span><i><span
+lang=EN-US style='font-family:Symbol'>s</span></i><span lang=EN-US> = 0.05</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i>
+= (</span><span style='font-family:宋体'>│</span><span lang=EN-US><span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span><sub>1</sub>-<span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span><sub>2</sub></span><span
+style='font-family:宋体'>│</span><span lang=EN-US>/<i>s</i>)[<i>n</i><sub>1</sub><i>n</i><sub>2</sub>/(<i>n</i><sub>1</sub>+<i>n</i><sub>2</sub>)]<sup>1/2</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+= [(0.16-0.12)/0.05][5</span><span style='font-family:宋体'>×</span><span
+lang=EN-US>5/(5+5)]<sup>1/2</sup> = 1.26</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</span><span
+style='font-family:宋体'>因为</span><i><span lang=EN-US>s</span></i><span
+lang=EN-US> = </span><i><span lang=EN-US style='font-family:Symbol'>s</span></i><span
+lang=EN-US>&nbsp; </span><span style='font-family:宋体'>所以</span> <i><span
+lang=EN-US>f</span></i><span lang=EN-US> = </span><span style='font-family:
+宋体'>∞</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i><sub>0.95,</sub></span><sub><span
+style='font-family:宋体'>∞</span></sub><span lang=EN-US> = 1.96&gt;1.26</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span><sub>1</sub></span><span
+style='font-family:宋体'>与</span><span lang=EN-US><span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span><sub>2</sub></span><span
+style='font-family:宋体'>差异不显著</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握相信两个样来自同一总体。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2251</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>: <span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span><sub>0</sub>
+= 0.42&nbsp;&nbsp; <i>s</i><sub>0</sub> = 0.25&nbsp;&nbsp;&nbsp; <i>n</i><sub>0</sub>
+= 5</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span>&nbsp;= 0.64&nbsp;&nbsp; &nbsp;<i>s</i>
+= 0.25&nbsp;&nbsp;&nbsp; <i>n</i> = 5</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>检验</span><span lang=EN-US><span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span></span><span
+style='font-family:宋体'>与</span><span lang=EN-US><span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span><sub>0</sub></span><span
+style='font-family:宋体'>差异是否显著</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>单边检验</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i>
+= [(<span style='position:relative;top:1.0pt'><img width=11 height=19
+src="02误差和数据处理（答案）.files/image044.png"></span>-<span style='position:relative;
+top:1.0pt'><img width=11 height=19 src="02误差和数据处理（答案）.files/image044.png"></span><sub>0</sub>)/<i>s</i>][<i>n</i><sub>0</sub><i>n</i>/(<i>n</i><sub>0</sub>+<i>n</i>)]<sup>1/2</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+= [(0.64-0.42)/0.25][5</span><span style='font-family:宋体'>×</span><span
+lang=EN-US>5/(5+5)]<sup>1/2</sup> = 1.39</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i><sub>0.10,8</sub>
+= 1.86</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i>
+&lt; <i>t</i><sub>0.10,8</sub>, </span><span style='font-family:宋体'>不显著</span><span
+lang=EN-US>, 95%</span><span style='font-family:宋体'>的把握未喷洒</span><span
+lang=EN-US>DDT</span><span style='font-family:宋体'>。</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection8 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>2252</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2253</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2254</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2255</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 0.2</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection9 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2256</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp;&nbsp; </span><span
+style='font-family:宋体'>设称样</span><i><span lang=EN-US>x</span></i><span
+lang=EN-US> g&nbsp; </span><span style='font-family:宋体'>则</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-0.5</span><span style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup></span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>──────</span><span lang=EN-US>&nbsp; =
+-0.1%</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>x</i></span><span style='font-family:宋体'>×</span><span lang=EN-US>5.0%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>x</i> = 10(g)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>最少要称样</span><span lang=EN-US>10g</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2257</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>进行对照试验</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>回收试验</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>空白试验</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>校准仪器和用适当的方法对分析结果校正。</span><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>2258</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp; &nbsp;</span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp;&nbsp; </span><span
+style='font-family:宋体'>二次测定平衡点最大极值误差为±</span><span lang=EN-US>0.2mg </span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p class=MsoNormal style='text-indent:84.0pt;line-height:80%'><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.2</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup></span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;
+<i>E</i><sub>r</sub></span><sub><span lang=EN-US style='font-size:7.5pt;
+line-height:80%'>1</span></sub><span lang=EN-US> =&nbsp; </span><span
+style='font-family:宋体'>────────×</span><span lang=EN-US>100% = </span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.4%</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.05</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>±</span><span lang=EN-US>0.2</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup></span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;
+<i>E</i><sub>r</sub></span><sub><span lang=EN-US style='font-size:7.5pt;
+line-height:80%'>2</span></sub><span lang=EN-US> =&nbsp; </span><span
+style='font-family:宋体'>────────×</span><span lang=EN-US>100% = </span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.1%</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0.2</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>±</span><span lang=EN-US>0.2</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup></span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp; <i>E</i><sub>r</sub></span><sub><span
+lang=EN-US style='font-size:7.5pt;line-height:80%'>3</span></sub><span
+lang=EN-US> =&nbsp; </span><span style='font-family:宋体'>────────×</span><span
+lang=EN-US>100% = </span><span style='font-family:宋体'>±</span><span lang=EN-US>0.02%</span></p>
+
+<p class=MsoNormal style='line-height:80%'><span lang=EN-US>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.0</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>说明称样量越大</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>相对误差越小</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>定量分析要求误差小于</span><span lang=EN-US>0.1%,</span><span
+style='font-family:宋体'>称样量大于</span><span lang=EN-US>0.2g</span><span
+style='font-family:宋体'>即可</span><span lang=EN-US>,</span><span
+style='font-family:宋体'>过大对试样处理操作不便。</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection10 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>2259</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2260</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2261</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2262</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2263</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2264</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2265</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 1.8</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-5</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>2266</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2267</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2268</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2269</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; (C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2270</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 10.09%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2271</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 0.2548g</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2272</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; 0.0255</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2273</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>三位</span><span
+lang=EN-US>,9.84</span><span style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-3</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>2274</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>系统</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2275</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>系统</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2276</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2277</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2278</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US>(C)<br>
+2279</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2280</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2281</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2282</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>0.500</span><span
+style='font-family:宋体'>或</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>0.001</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2283</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>标准偏差</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection11 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>2284</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>: <span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=2.7</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-8</sup> mol/L, <i>s</i>
+=0.29</span><span style='font-family:宋体'>×</span><span lang=EN-US>10<sup>-8</sup>
+mol/L </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+style='position:relative;top:13.0pt'><img width=227 height=41
+src="02误差和数据处理（答案）.files/image048.png"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<span
+style='position:relative;top:24.0pt'><img width=244 height=63
+src="02误差和数据处理（答案）.files/image049.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>2285</span></p>
+
+<p class=MsoNormal style='margin-left:94.6pt;text-indent:-73.5pt'><span
+style='font-family:宋体'>解：</span><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image047.png"></span>=1.007,
+<i>d</i><sub>1</sub>=-0.002, <i>d</i><sub>2</sub>=0, <i>d</i><sub>3=</sub>0.001,
+<i>d</i><sub>4</sub>=-0.001, <i>d</i><sub>5</sub>=0.002</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <span style='position:
+relative;top:13.0pt'><img width=412 height=43
+src="02误差和数据处理（答案）.files/image050.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>2286</span></p>
+
+<p class=MsoNormal style='margin-left:31.5pt;text-indent:-31.5pt'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=<span style='position:relative;
+top:3.0pt'><img width=16 height=23 src="02误差和数据处理（答案）.files/image051.png"></span>(N)=16.62%,
+<i>d</i><sub>1</sub>= </span><span lang=EN-US style='font-family:Symbol'>-</span><span
+lang=EN-US>0.10%, <i>d</i><sub>2</sub>=0.25%, <i>d</i><sub>3</sub>=-0.21%,<i> d</i><sub>4</sub>=0.08%<span
+style='position:relative;top:3.0pt'><img width=15 height=23
+src="02误差和数据处理（答案）.files/image052.png"></span>=<span style='position:relative;
+top:12.0pt'><img width=277 height=42 src="02误差和数据处理（答案）.files/image053.png"></span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>s</i>=<span style='position:relative;top:15.0pt'><img width=92 height=53
+src="02误差和数据处理（答案）.files/image054.png"></span>=0.20%</span></p>
+
+<p class=MsoNormal style='margin-left:21.1pt;text-indent:10.5pt'><span
+lang=EN-US><span style='position:relative;top:12.0pt'><img width=195 height=38
+src="02误差和数据处理（答案）.files/image055.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2287</span></p>
+
+<p class=MsoNormal><span lang=EN-US>0, </span><span style='font-family:宋体'>不为</span><span
+lang=EN-US>0</span><span style='font-family:宋体'>（或填各偏差绝对值之和除以测定次数）</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2288</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=0.099% </span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='position:relative;top:3.0pt'><img
+width=15 height=23 src="02误差和数据处理（答案）.files/image056.png"></span>=</span><span
+style='font-family:宋体'>（</span><span lang=EN-US>0.002+0.001+0.001+0.003+0.001</span><span
+style='font-family:宋体'>）</span><span lang=EN-US>/5=0.0016% </span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;<i>s</i>=<span
+style='position:relative;top:15.0pt'><img width=92 height=53
+src="02误差和数据处理（答案）.files/image057.png"></span>=0.002%</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:12.0pt'><img width=197 height=37
+src="02误差和数据处理（答案）.files/image058.png"></span>, </span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:14.0pt'><img width=173 height=40
+src="02误差和数据处理（答案）.files/image059.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>2289</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2290</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=0.1026 mol/L, <i>s</i>=0.00046
+mol/L</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:12.0pt'><img width=217 height=41
+src="02误差和数据处理（答案）.files/image060.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><i><span lang=EN-US>T</span></i><sub><span
+lang=EN-US>0.05,4</span></sub><span lang=EN-US>=1.46&lt;1.52&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>显著，将</span><span lang=EN-US>0.1019</span><span
+style='font-family:宋体'>舍去</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>然后求三次测量值的平均值和标准偏差</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=0.1028mol/L, <i>s</i>=0.0001mol/L</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:14.0pt'><img width=386 height=43
+src="02误差和数据处理（答案）.files/image061.png"></span>&nbsp;2291</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=79.31%, <i>s</i>=0.094% </span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=324 height=43 src="02误差和数据处理（答案）.files/image062.png"></span>2292</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>:&nbsp; </span><span style='font-family:宋体'>三次：</span><span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><i><span lang=EN-US
+style='font-family:Symbol'>m</span><span lang=EN-US> </span></i><span
+lang=EN-US>=<span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span></span><span style='font-family:
+宋体'>±</span><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=28 height=44 src="02误差和数据处理（答案）.files/image063.png"></span>=26.44<span
+style='position:relative;top:14.0pt'><img width=82 height=41
+src="02误差和数据处理（答案）.files/image064.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:73.5pt'><span lang=EN-US>=</span><span
+style='font-family:宋体'>（</span><span lang=EN-US>26.44</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.16</span><span
+style='font-family:宋体'>）</span><span lang=EN-US>(</span><span lang=EN-US
+style='font-family:Symbol'>m</span><span lang=EN-US>g/mL)</span></p>
+
+<p class=MsoNormal style='text-indent:10.5pt'><span style='font-family:宋体'>七次</span><span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span><i><span lang=EN-US style='font-family:
+Symbol'>m</span></i><span lang=EN-US>=<span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image047.png"></span></span><span
+style='font-family:宋体'>±</span><span lang=EN-US><span style='position:relative;
+top:14.0pt'><img width=28 height=44 src="02误差和数据处理（答案）.files/image063.png"></span>=26.44<span
+style='position:relative;top:14.0pt'><img width=79 height=39
+src="02误差和数据处理（答案）.files/image065.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:100.5pt'><span lang=EN-US>=(26.44</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.10) (</span><span lang=EN-US
+style='font-family:Symbol'>m</span><span lang=EN-US>g/mL)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2293</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=60.55%,&nbsp; <i>s</i>=0.041% </span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;<span
+style='position:relative;top:23.0pt'><img width=329 height=63
+src="02误差和数据处理（答案）.files/image066.png"></span></span><span style='font-family:
+宋体'>即：</span><span lang=EN-US>60.50%~60.60%</span><span style='font-family:
+宋体'>，真值</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><i><span lang=EN-US>x</span></i><sub><span
+lang=EN-US>T</span></sub><span lang=EN-US>= </span><i><span lang=EN-US
+style='font-family:Symbol'>m</span></i><span lang=EN-US>= <span
+style='position:relative;top:12.0pt'><img width=146 height=37
+src="02误差和数据处理（答案）.files/image067.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>有</span><span
+lang=EN-US>95%</span><span style='font-family:宋体'>的把握认为该区间不包含真值在内。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2294:&nbsp; </span><span style='font-family:
+宋体'>解</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:23.0pt'><img width=304 height=62
+src="02误差和数据处理（答案）.files/image068.png"></span>&nbsp;&nbsp;&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>m</span><span lang=EN-US>=</span></i><span
+lang=EN-US>0.64</span><span style='font-family:宋体'>±</span><span lang=EN-US><span
+style='position:relative;top:14.0pt'><img width=173 height=41
+src="02误差和数据处理（答案）.files/image069.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>2295:&nbsp; </span><span style='font-family:
+宋体'>解</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(1)&nbsp;
+<i>Q</i>=<span style='position:relative;top:15.0pt'><img width=183 height=43
+src="02误差和数据处理（答案）.files/image070.png"></span>,&nbsp; </span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><i><span lang=EN-US>Q</span></i><sub><span
+lang=EN-US>0.90,5</span></sub><span lang=EN-US>=0.64&lt;0.75&nbsp; </span><span
+style='font-family:宋体'>差异显著</span><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;
+37.15%</span><span style='font-family:宋体'>这个值</span><span style='font-family:
+宋体'>应舍去</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:.1pt'><span
+style='font-family:宋体'>（</span><span lang=EN-US>2</span><span style='font-family:
+宋体'>）去掉</span><span lang=EN-US>37.15%</span><span style='font-family:宋体'>后求四次测定的平均值，</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=39.32%,&nbsp; &nbsp;<i>s</i>=0.021%</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:23.0pt'><img width=325 height=62
+src="02误差和数据处理（答案）.files/image071.png"></span>2296</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>&nbsp; <span style='position:relative;top:3.0pt'><img width=13
+height=23 src="02误差和数据处理（答案）.files/image047.png"></span>=1.49%,&nbsp; <i>s</i>=0.058%
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='position:relative;top:23.0pt'><img
+width=305 height=61 src="02误差和数据处理（答案）.files/image072.png"></span>&nbsp; </span><span
+style='font-family:宋体'>即</span><span lang=EN-US>1.43%~1.55%</span><span
+style='font-family:宋体'>，有</span><span lang=EN-US>90</span><span
+style='font-family:宋体'>％的把握该区间包含真</span><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>值在内</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2297</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>:&nbsp; </span><i><span lang=EN-US style='font-family:Symbol'>m</span></i><span
+lang=EN-US>=<span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span></span><span style='font-family:
+宋体'>±</span><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=26 height=41 src="02误差和数据处理（答案）.files/image073.png"></span></span><span
+style='font-family:宋体'>，</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='position:relative;top:3.0pt'><img
+width=13 height=23 src="02误差和数据处理（答案）.files/image047.png"></span>=</span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span style='font-family:
+宋体'>±</span><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=26 height=41 src="02误差和数据处理（答案）.files/image074.png"></span>=2.75<span
+style='position:relative;top:14.0pt'><img width=182 height=41
+src="02误差和数据处理（答案）.files/image075.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>即：</span><span
+lang=EN-US>2.70% ~2.80%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>2298</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>:<span style='position:relative;top:14.0pt'><img width=28 height=44
+src="02误差和数据处理（答案）.files/image063.png"></span>=0.1mmol/L,&nbsp;&nbsp; <span
+style='position:relative;top:12.0pt'><img width=212 height=41
+src="02误差和数据处理（答案）.files/image076.png"></span>, </span><span style='font-family:
+宋体'>需测定五次</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4201</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span><span style='font-family:宋体'>解</span><span
+lang=EN-US>: </span><i><span lang=EN-US style='font-family:Symbol'>m</span><span
+lang=EN-US> </span></i><span lang=EN-US>=<span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image047.png"></span></span><span
+style='font-family:宋体'>±</span><span lang=EN-US><span style='position:relative;
+top:14.0pt'><img width=25 height=39 src="02误差和数据处理（答案）.files/image077.png"></span>,&nbsp;
+<span style='position:relative;top:14.0pt'><img width=25 height=39
+src="02误差和数据处理（答案）.files/image077.png"></span>=2.62%</span><span
+style='font-family:宋体'>－</span><span lang=EN-US>2.52% = 0.10%, </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp; <span style='position:relative;
+top:12.0pt'><img width=171 height=37 src="02误差和数据处理（答案）.files/image078.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>4202</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:&nbsp; </span><i><span
+lang=EN-US style='font-family:Symbol'>m</span></i><span lang=EN-US> =<span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image079.png"></span></span><span style='font-family:
+宋体'>±</span><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=40 height=42 src="02误差和数据处理（答案）.files/image080.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>4203</span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-family:宋体'>两次：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image079.png"></span>= 1.14%, <i>s</i>=0.021% &nbsp;</span><span
+lang=EN-US style='font-family:Symbol'>m</span><span lang=EN-US> =</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='position:relative;top:3.0pt'><img
+width=13 height=23 src="02误差和数据处理（答案）.files/image079.png"></span><span
+style='position:relative;top:14.0pt'><img width=272 height=42
+src="02误差和数据处理（答案）.files/image081.png"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style='font-family:宋体'>五次</span><span lang=EN-US>:<span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image082.png"></span>=1.13%,&nbsp; <i>s </i>= 0.022%</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; <i>&nbsp;</i></span><i><span
+lang=EN-US style='font-family:Symbol'>m</span><span lang=EN-US> </span></i><span
+lang=EN-US>=<span style='position:relative;top:14.0pt'><img width=209
+height=39 src="02误差和数据处理（答案）.files/image083.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>两次测定比五次的置信区间大</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4204</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解</span><span lang=EN-US>:<i> p</i>=0.95% (</span><i><span
+style='font-family:宋体'>α</span></i><span lang=EN-US>=0.05) </span></p>
+
+<p class=MsoNormal style='text-indent:27.0pt'><i><span lang=EN-US
+style='font-family:Symbol'>m</span></i><span lang=EN-US>=<span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image079.png"></span></span><span style='font-family:
+宋体'>±</span><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=25 height=39 src="02误差和数据处理（答案）.files/image077.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:27.0pt'><span lang=EN-US>=62.32<span
+style='position:relative;top:14.0pt'><img width=183 height=39
+src="02误差和数据处理（答案）.files/image084.png"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>p</i>=0.99%(</span><i><span
+style='font-family:宋体'>α</span></i><span lang=EN-US>=0.01) </span></p>
+
+<p class=MsoNormal style='margin-left:49.5pt;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>m<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>=<span style='position:relative;top:3.0pt'><img
+width=13 height=23 src="02误差和数据处理（答案）.files/image079.png"></span></span><span
+style='font-family:宋体'>±</span><span lang=EN-US><span style='position:relative;
+top:14.0pt'><img width=28 height=44 src="02误差和数据处理（答案）.files/image085.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:49.5pt;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>m<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>= 62.32<span style='position:relative;
+top:14.0pt'><img width=185 height=39 src="02误差和数据处理（答案）.files/image086.png"></span></span><span
+style='font-family:宋体'>结论：置信度高，</span><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>置信区间大</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4205</span></p>
+
+<p class=MsoNormal style='text-indent:21.75pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>: <span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image079.png"></span>= 31.27%, <i>s</i>=0.055%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+90%:</span></p>
+
+<p class=MsoNormal><i><span lang=EN-US style='font-family:Symbol'>m</span></i><span
+lang=EN-US style='font-size:9.0pt'>=<span style='position:relative;top:3.0pt'><img
+width=13 height=23 src="02误差和数据处理（答案）.files/image079.png"></span><span
+style='position:relative;top:14.0pt'><img width=299 height=43
+src="02误差和数据处理（答案）.files/image087.png"></span></span><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95%:
+&nbsp;</span><i><span lang=EN-US style='font-family:Symbol'>m</span><span
+lang=EN-US> </span></i><span lang=EN-US>=<span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image079.png"></span><span
+style='position:relative;top:14.0pt'><img width=293 height=43
+src="02误差和数据处理（答案）.files/image088.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>4206</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解：先检验</span> <i><span lang=EN-US style='font-family:
+Symbol'>s</span></i><sub><span lang=EN-US>1</span></sub><span style='font-family:
+宋体'>与</span><i><span lang=EN-US style='font-family:Symbol'>s</span></i><sub><span
+lang=EN-US>2</span></sub><span style='font-family:宋体'>是否相等。双边检验，用</span><span
+lang=EN-US>95%</span><span style='font-family:宋体'>的</span><i><span lang=EN-US>F</span></i><span
+style='font-family:宋体'>表</span> </p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <span
+style='position:relative;top:16.0pt'><img width=170 height=46
+src="02误差和数据处理（答案）.files/image089.png"></span></span><span style='font-family:
+宋体'>（</span><i><span lang=EN-US>F</span></i><sub><span lang=EN-US>0.05,3,2</span></sub><span
+style='font-family:宋体'>）</span><span lang=EN-US><span style='position:relative;
+top:5.0pt'><img width=12 height=23 src="02误差和数据处理（答案）.files/image090.png"></span>&nbsp;
+</span><span style='font-family:宋体'>差异不显著</span><span lang=EN-US> </span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>s </span></i><sub><span lang=EN-US>p </span></sub><span lang=EN-US>=<span
+style='position:relative;top:16.0pt'><img width=153 height=48
+src="02误差和数据处理（答案）.files/image091.png"></span>=<span style='position:relative;
+top:13.0pt'><img width=181 height=43 src="02误差和数据处理（答案）.files/image092.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>t</span></i><sub><span style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>=<span style='position:relative;top:16.0pt'><img width=107
+height=51 src="02误差和数据处理（答案）.files/image093.png"></span>=<span
+style='position:relative;top:13.0pt'><img width=152 height=43
+src="02误差和数据处理（答案）.files/image094.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+style='font-family:宋体'>双边检验</span><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0.10,5</span></sub><span lang=EN-US>=2.02&gt;<i> t</i></span><sub><span
+style='font-family:宋体'>计</span></sub><span lang=EN-US>,&nbsp; 90%</span><span
+style='font-family:宋体'>的把握认为两个平均值无显著性差异</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4207</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image079.png"></span>=1.47%</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><span
+lang=EN-US>=0.053%</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><i><span lang=EN-US>t</span></i><sub><span
+style='font-family:宋体'>计</span></sub><span lang=EN-US>=<span style='position:
+relative;top:30.0pt'><img width=165 height=68
+src="02误差和数据处理（答案）.files/image095.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>双边检验</span><i><span
+lang=EN-US>t</span></i><sub><span lang=EN-US>0.05,5</span></sub><span
+lang=EN-US>=2.57&gt;<i> t</i></span><sub><span style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握认为新方法平均值与真值无显著性差异，新方法可行。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4208</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span><sub>1</sub>=56.11%</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><sub><span
+lang=EN-US>1</span></sub><span lang=EN-US>=0.032%</span><span style='font-family:
+宋体'>，</span><i><span lang=EN-US>n</span></i><sub><span lang=EN-US>1</span></sub><span
+lang=EN-US>=3, <span style='position:relative;top:3.0pt'><img width=13
+height=23 src="02误差和数据处理（答案）.files/image082.png"></span><sub>2</sub>=55.95%</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><sub><span
+lang=EN-US>2</span></sub><span lang=EN-US>=0.060%,&nbsp; <i>n</i><sub>2</sub>=3</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US><span style='position:relative;top:16.0pt'><img width=163 height=46
+src="02误差和数据处理（答案）.files/image096.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+style='font-family:宋体'>置信度</span><span lang=EN-US>90%</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>F</span></i><sub><span
+lang=EN-US>0.95,2,2</span></sub><span lang=EN-US>=19.00&gt;<i>F</i></span><sub><span
+style='font-family:宋体'>计</span></sub><span lang=EN-US>, </span><span
+style='font-family:宋体'>不显著</span><span lang=EN-US> </span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>s</span></i><sub><span lang=EN-US>p</span></sub><span lang=EN-US>=<span
+style='position:relative;top:16.0pt'><img width=153 height=48
+src="02误差和数据处理（答案）.files/image091.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>=<span style='position:relative;top:13.0pt'><img width=197
+height=43 src="02误差和数据处理（答案）.files/image097.png"></span></span><span
+style='font-family:宋体'>（</span><span lang=EN-US>%</span><span style='font-family:
+宋体'>）</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>t</span></i><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>=<span style='position:relative;top:5.0pt'><img width=12 height=23
+src="02误差和数据处理（答案）.files/image090.png"></span><span style='position:relative;
+top:16.0pt'><img width=114 height=51 src="02误差和数据处理（答案）.files/image098.png"></span>=<span
+style='position:relative;top:13.0pt'><img width=123 height=42
+src="02误差和数据处理（答案）.files/image099.png"></span>= 4.08</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+style='font-family:宋体'>置信度</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>，单边检验用</span><span lang=EN-US>90% </span><span
+style='font-family:宋体'>双边</span><i><span lang=EN-US>t</span></i><span
+style='font-family:宋体'>表，</span><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0.10,4</span></sub><span lang=EN-US>=2.13&lt;<i>t</i></span><sub><span
+style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>95%</span><span style='font-family:宋体'>把握认为滴定法结果偏低。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4209</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=22 height=20
+src="02误差和数据处理（答案）.files/image100.png"></span>=4.96%</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><span
+lang=EN-US>=0.11%</span><span style='font-family:宋体'>，</span><span lang=EN-US><span
+style='position:relative;top:12.0pt'><img width=192 height=47
+src="02误差和数据处理（答案）.files/image101.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>T</i><sub>0.05,5</sub>=1.67&gt;<i>T</i></span><sub><span
+style='font-family:宋体'>计</span></sub><span style='font-family:宋体'>，保留</span><span
+lang=EN-US>4.80</span><span style='font-family:宋体'>这个值</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+style='position:relative;top:30.0pt'><img width=195 height=68
+src="02误差和数据处理（答案）.files/image102.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>t</i><sub>0.05,4</sub>=
+2.78&lt; <i>t</i></span><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>,&nbsp; </span><span style='font-family:宋体'>有显著性差异，</span></p>
+
+<p class=MsoNormal><span style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握认为该分析方法存在系统误差。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4210</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：格鲁布斯法：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image103.png"></span>=20.06</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><span
+lang=EN-US>=0.073,</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>T</span></i><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>=<span style='position:relative;top:12.0pt'><img width=178
+height=41 src="02误差和数据处理（答案）.files/image104.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>T</span></i><sub><span lang=EN-US>0.05,6</span></sub><span
+lang=EN-US>=1.82&lt;<i> T</i></span><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>,&nbsp; </span><span style='font-family:宋体'>应舍去</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Q</i></span><span
+style='font-family:宋体'>检验法：</span><i><span lang=EN-US>Q</span></i><span
+lang=EN-US>=<span style='position:relative;top:15.0pt'><img width=53 height=47
+src="02误差和数据处理（答案）.files/image105.png"></span>=<span style='position:relative;
+top:12.0pt'><img width=127 height=37 src="02误差和数据处理（答案）.files/image106.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>Q</span></i><sub><span lang=EN-US>0.95,6 </span></sub><span
+lang=EN-US>= 0.64&lt; <i>Q</i></span><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>,&nbsp; </span><span style='font-family:宋体'>应舍去</span></p>
+
+<p class=MsoNormal><span style='font-family:宋体'>两种方法都认为</span><span lang=EN-US>20.20</span><span
+style='font-family:宋体'>为异常值，置信度是</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4211</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:30.0pt'><img width=210 height=68
+src="02误差和数据处理（答案）.files/image107.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>5</span><span style='font-family:宋体'>次：</span><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0.05,4</span></sub><span lang=EN-US>=2.78&gt;<i>t</i></span><sub><span
+style='font-family:宋体'>计</span></sub><span lang=EN-US>,&nbsp; </span><span
+style='font-family:宋体'>不显著。</span></p>
+
+<p class=MsoNormal><span style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握认为该分析方法不存在系统误差。</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>20</span><span style='font-family:宋体'>次：</span><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0.05,20</span></sub><span lang=EN-US>=2.09&lt;<i> t</i></span><sub><span
+style='font-family:宋体'>计</span></sub> <span lang=EN-US>,&nbsp; </span><span
+style='font-family:宋体'>显著</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt'><span style='font-family:宋体'>有</span><span
+lang=EN-US>95%</span><span style='font-family:宋体'>的把握认为该分析方法存在系统误差</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4212</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image103.png"></span>=0.072mg/L</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><span
+lang=EN-US>=0.0079mg/L</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US><span style='position:relative;top:30.0pt'><img width=210 height=68
+src="02误差和数据处理（答案）.files/image108.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+style='font-family:宋体'>单边检验，</span><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0.10,7</span></sub><span lang=EN-US>=1.90&lt;2.15,&nbsp; </span><span
+style='font-family:宋体'>显著</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+<i>t</i><sub>0.05,7</sub>=2.36&gt;2.15,&nbsp; </span><span style='font-family:
+宋体'>不显著</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+style='font-family:宋体'>显著水平为</span><span lang=EN-US>0.10</span><span
+style='font-family:宋体'>时，此人血铅含量高。</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt'><span style='font-family:宋体'>若显著水平为</span><span
+lang=EN-US>0.05</span><span style='font-family:宋体'>时，则此人血铅含量不高。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4213</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image103.png"></span>=2.71%</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><span
+lang=EN-US>=0.07%</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US><span style='position:relative;top:30.0pt'><img width=193 height=68
+src="02误差和数据处理（答案）.files/image109.png"></span>,&nbsp; </span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>&nbsp;</span><span style='font-family:宋体'>单边检验，</span><i><span
+lang=EN-US>t</span></i><sub><span lang=EN-US>0.10</span></sub><sub><span
+style='font-family:宋体'>，</span><span lang=EN-US>3</span></sub><span lang=EN-US>=2.35
+&gt;<i>t</i></span><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>,&nbsp; </span><span style='font-family:宋体'>不显著</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>&nbsp;</span><span style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握认为结果不偏低</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4214</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span>
+<span lang=EN-US><span style='position:relative;top:16.0pt'><img width=154
+height=46 src="02误差和数据处理（答案）.files/image110.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:42.5pt'><span style='font-family:宋体'>单边，</span><i><span
+lang=EN-US>F</span></i><sub><span lang=EN-US>0..05</span></sub><sub><span
+style='font-family:宋体'>，</span><span lang=EN-US>,3</span></sub><sub><span
+style='font-family:宋体'>，</span><span lang=EN-US>3</span></sub><span lang=EN-US>=9.28&gt;5.44<span
+style='position:relative;top:5.0pt'><img width=12 height=23
+src="02误差和数据处理（答案）.files/image090.png"></span>,</span><span style='font-family:
+宋体'>差异不显著</span><span lang=EN-US> </span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>s</span></i><sub><span lang=EN-US>p</span></sub><span lang=EN-US>=<span
+style='position:relative;top:16.0pt'><img width=156 height=49
+src="02误差和数据处理（答案）.files/image111.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>=<span style='position:relative;top:13.0pt'><img width=179
+height=43 src="02误差和数据处理（答案）.files/image112.png"></span>(%)</span></p>
+
+<p class=MsoNormal style='margin-left:21.2pt;text-indent:21.0pt'><span
+lang=EN-US><span style='position:relative;top:16.0pt'><img width=129 height=50
+src="02误差和数据处理（答案）.files/image113.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.2pt;text-indent:31.5pt'><span
+lang=EN-US>=<span style='position:relative;top:5.0pt'><img width=12 height=23
+src="02误差和数据处理（答案）.files/image090.png"></span><span style='position:relative;
+top:13.0pt'><img width=151 height=42 src="02误差和数据处理（答案）.files/image114.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+style='font-family:宋体'>双边：</span><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0.10,6 </span></sub><span lang=EN-US>= 1.94&lt;<i>t</i></span><sub><span
+style='font-family:宋体'>计</span></sub><span lang=EN-US>,&nbsp; 90%</span><span
+style='font-family:宋体'>把握认为两种方法间存在系统误差。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4215</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span>
+<span lang=EN-US><span style='position:relative;top:12.0pt'><img width=226
+height=37 src="02误差和数据处理（答案）.files/image115.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;s=0.10%</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=306 height=42 src="02误差和数据处理（答案）.files/image116.png"></span>4216</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US>90%</span><span style='font-family:宋体'>：</span><span lang=EN-US><span
+style='position:relative;top:14.0pt'><img width=313 height=43
+src="02误差和数据处理（答案）.files/image117.png"></span>95%</span><span style='font-family:
+宋体'>：</span><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=312 height=43 src="02误差和数据处理（答案）.files/image118.png"></span></span><span
+style='font-family:宋体'>结论：置信度高时置信区间大。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4217</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:14.0pt'><img width=77 height=42
+src="02误差和数据处理（答案）.files/image119.png"></span></span><span style='font-family:
+宋体'>，</span><span lang=EN-US><span style='position:relative;top:14.0pt'><img
+width=151 height=39 src="02误差和数据处理（答案）.files/image120.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>n</span></i><span lang=EN-US>=4, <i>t</i><sub>0.10,3</sub>=2.35, <i>t</i><sup>2</sup>=5.52&gt;4</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>n</span></i><span lang=EN-US>=5, <i>t</i><sub>0.10,4,</sub>=2.13, <i>t</i><sup>2</sup>=4.54&lt;5,&nbsp;&nbsp;
+</span><span style='font-family:宋体'>五次，</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US><span style='position:relative;top:14.0pt'><img width=187 height=45
+src="02误差和数据处理（答案）.files/image121.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>n</span></i><span lang=EN-US>=2,&nbsp;&nbsp; <i>t</i><sub>0.10,1</sub>=6.31,&nbsp;
+<span style='position:relative;top:14.0pt'><img width=37 height=49
+src="02误差和数据处理（答案）.files/image122.png"></span>=9.95&gt;2,</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><i><span
+lang=EN-US>n</span></i><span lang=EN-US>=3,&nbsp;&nbsp; <i>t</i><sub>0.10,2</sub>=2.92,&nbsp;
+<span style='position:relative;top:14.0pt'><img width=37 height=49
+src="02误差和数据处理（答案）.files/image122.png"></span>=2.13&lt;3,&nbsp;&nbsp; </span><span
+style='font-family:宋体'>三次，</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+style='font-family:宋体'>结论：相同置信度时，若置信区间大，平行测定次数可少些。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4218</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image047.png"></span>=1.23%,&nbsp; <i>s</i>=0.059%</span></p>
+
+<p class=MsoNormal><i><span lang=EN-US style='font-family:Symbol'>m</span></i><span
+lang=EN-US>=<span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image123.png"></span></span><span style='font-family:
+宋体'>±</span><span lang=EN-US>1.23<span style='position:relative;top:14.0pt'><img
+width=194 height=39 src="02误差和数据处理（答案）.files/image124.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>4219</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解</span><span
+lang=EN-US>:<span style='position:relative;top:14.0pt'><img width=96 height=39
+src="02误差和数据处理（答案）.files/image125.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>90%</span><span
+style='font-family:宋体'>：</span><i><span lang=EN-US>n</span></i><span
+lang=EN-US>=4,<span style='position:relative;top:5.0pt'><img width=12
+height=23 src="02误差和数据处理（答案）.files/image090.png"></span><i>t</i><sub>0.10,3</sub>=2.35,&nbsp;
+<i>t</i><sup>2</sup>=5.5&gt;4</span></p>
+
+<p class=MsoNormal style='margin-left:42.5pt'><span lang=EN-US>&nbsp; <i>n</i>=5,
+<i>t</i><sub>0.10,4</sub>=2.13,&nbsp; <i>t</i><sup>2</sup>=4.5&lt;5,&nbsp; </span><span
+style='font-family:宋体'>五次</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>95%</span><span
+style='font-family:宋体'>：</span><i><span lang=EN-US>n</span></i><span
+lang=EN-US>=6,&nbsp; <i>t</i><sub>0.05,5</sub>=2.57,&nbsp; <i>t</i><sup>2</sup>=6.6&gt;6</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>n</i>=7,&nbsp; <i>t</i><sub>0.05,6</sub>=2.45,&nbsp; <i>t</i><sup>2</sup>=6.0=6
+</span><span style='font-family:宋体'>七次</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>结论：当要求置信区间大小一定时，置信度越高平行测定次数越多。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4220</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span>
+<span lang=EN-US><span style='position:relative;top:3.0pt'><img width=13
+height=23 src="02误差和数据处理（答案）.files/image079.png"></span>=2.71%,&nbsp; <i>s</i>=0.070%,
+</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><i><span lang=EN-US>p</span></i><span
+lang=EN-US>=95% (</span><i><span lang=EN-US style='font-family:Symbol'>a</span></i><span
+lang=EN-US>=0.05)</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:14.0pt'><img width=305 height=42
+src="02误差和数据处理（答案）.files/image126.png"></span>2.60% ~2.82%,&nbsp; 95%</span><span
+style='font-family:宋体'>的把握该区间不包含真值在内。</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><i><span lang=EN-US>p</span></i><span
+lang=EN-US>=99% (</span><i><span lang=EN-US style='font-family:Symbol'>a</span></i><span
+lang=EN-US>=0.01)</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:14.0pt'><img width=307 height=42
+src="02误差和数据处理（答案）.files/image127.png"></span>2.51% ~2.91%,&nbsp; 99%</span><span
+style='font-family:宋体'>的把握该区间包含真值在内。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4221</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>解</span><span lang=EN-US>: <span style='position:relative;
+top:30.0pt'><img width=197 height=68 src="02误差和数据处理（答案）.files/image128.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>单边检验，概率</span><span lang=EN-US>=0.45</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>u</span></i><sub><span
+lang=EN-US>0.05</span></sub><span lang=EN-US>=1.65 &lt; <i>u</i></span><sub><span
+style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US>95%</span><span style='font-family:宋体'>把握认为杂质含量明显降低。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4222</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>解：</span><i><span lang=EN-US>s</span></i><sub><span
+lang=EN-US>1</span></sub><span lang=EN-US>=0.054%, <i>s</i><sub>2</sub>=0.056%,
+</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US><span style='position:relative;top:15.0pt'><img width=117 height=45
+src="02误差和数据处理（答案）.files/image129.png"></span>=1.08</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>双边检验置信度</span><span lang=EN-US>90%</span><span
+style='font-family:宋体'>，用</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的单边</span><span lang=EN-US>F</span><span
+style='font-family:宋体'>表</span><span lang=EN-US>, <i>F</i><sub>0.05,2.,3</sub>=9.55&gt;<i>F</i></span><sub><span
+style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>有</span><span lang=EN-US>90%</span><span
+style='font-family:宋体'>的把握认为两种方法的精密度无显著性差异。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4223</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>解：</span><span lang=EN-US><span style='position:relative;
+top:15.0pt'><img width=147 height=45 src="02误差和数据处理（答案）.files/image130.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style='font-family:
+宋体'>双边检验，</span><span lang=EN-US>90%</span><span style='font-family:宋体'>置信度用</span><span
+lang=EN-US>95%</span><span style='font-family:宋体'>的单边</span><span lang=EN-US>F</span><span
+style='font-family:宋体'>表</span><span lang=EN-US>, <i>F</i><sub>0.05,4</sub></span><sub><span
+style='font-family:宋体'>，</span><span lang=EN-US>5</span></sub><span lang=EN-US>=5.19&gt;<i>F</i></span><sub><span
+style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt;line-height:
+150%'><span style='font-family:宋体'>有</span><span lang=EN-US>90%</span><span
+style='font-family:宋体'>的把握认为两种方法的精密度无显著性差异。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4224</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>解：</span><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image079.png"></span>=0.2037,&nbsp;
+<i>s</i>=0.00065</span><span style='font-family:宋体'>，</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt;line-height:
+150%'><span lang=EN-US><span style='position:relative;top:30.0pt'><img
+width=225 height=68 src="02误差和数据处理（答案）.files/image131.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt;line-height:
+150%'><i><span lang=EN-US>t</span></i><sub><span lang=EN-US>0.05,3</span></sub><span
+lang=EN-US>=3.18&gt; <i>t</i></span><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>, </span><span style='font-family:宋体'>无显著性差异。</span></p>
+
+<p class=MsoNormal align=left style='margin-left:42.5pt;text-align:left;
+line-height:150%'><span style='font-family:宋体'>检验</span><span lang=EN-US>0.2046</span><span
+style='font-family:宋体'>：</span><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image123.png"></span>=0.2036,&nbsp;
+<i>s</i>=0.00057</span><span style='font-family:宋体'>，</span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%'><i><span
+lang=EN-US>T</span></i><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>=<span style='position:relative;top:12.0pt'><img width=255
+height=37 src="02误差和数据处理（答案）.files/image132.png"></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:31.5pt;
+line-height:150%'><span lang=EN-US>0.2046</span><span style='font-family:宋体'>这个值应舍去。</span></p>
+
+<p class=MsoNormal align=left style='margin-left:42.5pt;text-align:left;
+line-height:150%'><span lang=EN-US><span style='position:relative;top:3.0pt'><img
+width=13 height=23 src="02误差和数据处理（答案）.files/image133.png"></span>=0.2034, <i>s</i>=0.00022</span><span
+style='font-family:宋体'>，</span></p>
+
+<p class=MsoNormal align=left style='margin-left:42.5pt;text-align:left;
+line-height:150%'><i><span lang=EN-US>t</span></i><sub><span style='font-family:
+宋体'>计</span></sub><span lang=EN-US>=<span style='position:relative;top:12.0pt'><img
+width=161 height=37 src="02误差和数据处理（答案）.files/image134.png"></span></span></p>
+
+<p class=MsoNormal align=left style='margin-left:42.5pt;text-align:left;
+line-height:150%'><i><span lang=EN-US>t</span></i><sub><span lang=EN-US>0.05,3</span></sub><span
+lang=EN-US>=3.18&lt;<i>t</i></span><sub><span style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4225</span></p>
+
+<p class=MsoNormal align=left style='margin-left:21.25pt;text-align:left;
+line-height:150%'><span style='font-family:宋体'>解：</span><span lang=EN-US><span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image103.png"></span>=0.2037mol/L,&nbsp; <i>s</i>=0.00065mol/L</span><span
+style='font-family:宋体'>，</span><span lang=EN-US><span style='position:relative;
+top:12.0pt'><img width=284 height=41 src="02误差和数据处理（答案）.files/image135.png"></span>0.2046mol/L</span><span
+style='font-family:宋体'>保留</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;line-height:150%'><span
+style='font-family:宋体'>五次测定：</span><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image047.png"></span>=0.2036mol/L,
+<i>s</i>=0.00057mol/L,</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;line-height:150%'><i><span
+lang=EN-US>T</span></i><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>=<span style='position:relative;top:12.0pt'><img width=139
+height=37 src="02误差和数据处理（答案）.files/image136.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;line-height:150%'><i><span
+lang=EN-US>T</span></i><sub><span lang=EN-US>0.05,5</span></sub><span
+lang=EN-US>=1.67&lt;<i>T</i></span><sub><span style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;line-height:150%'><span
+style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握认为</span><span lang=EN-US>0.2046 mol/L</span><span
+style='font-family:宋体'>这个值应舍去。</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;line-height:150%'><span
+style='font-family:宋体'>舍掉后</span> <span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image133.png"></span>=0.2034mol/L,&nbsp;
+<i>s</i>=0.00022mol/L</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US><span style='position:relative;top:14.0pt'><img width=339 height=39
+src="02误差和数据处理（答案）.files/image137.png"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(mol/L)</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4226</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>解：三次：</span><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image133.png"></span>=48.38%,&nbsp;
+<i>s</i>=0.091%</span><span style='font-family:宋体'>，</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><i><span
+lang=EN-US>T</span></i><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>=</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US><span style='position:relative;top:12.0pt'><img width=301 height=47
+src="02误差和数据处理（答案）.files/image138.png"></span>&nbsp;&nbsp; </span><span
+style='font-family:宋体'>保留</span></p>
+
+<p class=MsoNormal align=left style='margin-left:21.25pt;text-align:left;
+line-height:150%'><span style='font-family:宋体'>四次：</span><span lang=EN-US><span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image133.png"></span>=48.40%,&nbsp; <i>s</i>=0.079%</span></p>
+
+<p class=MsoNormal align=left style='margin-left:21.25pt;text-align:left;
+line-height:150%'><i><span lang=EN-US>T</span></i><sub><span style='font-family:
+宋体'>计</span></sub><span lang=EN-US>=</span></p>
+
+<p class=MsoNormal align=left style='margin-left:21.25pt;text-align:left;
+line-height:150%'><span lang=EN-US><span style='position:relative;top:12.0pt'><img
+width=303 height=45 src="02误差和数据处理（答案）.files/image139.png"></span>95%</span><span
+style='font-family:宋体'>的把握认为</span><span lang=EN-US>48.28%</span><span
+style='font-family:宋体'>这个值应舍去。</span></p>
+
+<p class=MsoNormal align=left style='margin-left:21.25pt;text-align:left;
+line-height:150%'><span style='font-family:宋体'>舍掉后</span> <span lang=EN-US><span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image133.png"></span>=48.44%,&nbsp; <i>s</i>=0.015% </span><span
+style='font-family:宋体'>，</span></p>
+
+<p class=MsoNormal align=left style='margin-left:21.25pt;text-align:left;
+line-height:150%'><i><span lang=EN-US style='font-family:Symbol'>m</span></i><span
+lang=EN-US>=<span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image133.png"></span><span style='position:relative;
+top:14.0pt'><img width=283 height=39 src="02误差和数据处理（答案）.files/image140.png"></span><i>t</i></span><sub><span
+style='font-family:宋体'>计</span></sub><span lang=EN-US>=<span style='position:
+relative;top:30.0pt'><img width=181 height=67
+src="02误差和数据处理（答案）.files/image141.png"></span></span></p>
+
+<p class=MsoNormal align=left style='margin-left:21.25pt;text-align:left;
+line-height:150%'><i><span lang=EN-US>t</span></i><sub><span lang=EN-US>0.05,2</span></sub><span
+lang=EN-US>=4.30</span><span style='font-family:宋体'>＜</span><i><span
+lang=EN-US>t</span></i><sub><span style='font-family:宋体'>计</span></sub><span
+lang=EN-US>, </span><span style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握认为平均值与合格值有显著性差异。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4227</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>解：</span><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image133.png"></span>=5.07%,
+&nbsp;<i>s</i>=0.05%</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US><span style='position:relative;top:30.0pt'><img width=185 height=69
+src="02误差和数据处理（答案）.files/image142.png"></span>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>单边检验</span><span lang=EN-US style='font-family:Symbol'>a</span><span
+lang=EN-US>=0.05, </span><span style='font-family:宋体'>用</span><span lang=EN-US>90%</span><span
+style='font-family:宋体'>的双边</span><span lang=EN-US>t</span><span
+style='font-family:宋体'>表</span><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0..10,3</span></sub><span lang=EN-US>=2.35&lt;<i>t</i></span><sub><span
+style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>有显著性差异</span><span lang=EN-US>, </span><span
+style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>把握认为醋酸含量明显偏高，需重新勾兑。</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4228</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><span
+lang=EN-US><span style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image133.png"></span><sub>1</sub>=2.38%</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><sub><span
+lang=EN-US>1</span></sub><span lang=EN-US>=0.068%</span><span style='font-family:
+宋体'>，</span><i><span lang=EN-US>n</span></i><sub><span lang=EN-US>1</span></sub><span
+lang=EN-US>=4, <span style='position:relative;top:3.0pt'><img width=13
+height=23 src="02误差和数据处理（答案）.files/image133.png"></span><sub>2</sub>=2.46%</span><span
+style='font-family:宋体'>，</span><i><span lang=EN-US>s</span></i><sub><span
+lang=EN-US>2</span></sub><span lang=EN-US>=0.074%,&nbsp; <i>n</i><sub>2</sub>=4</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:16.0pt'><img width=159 height=45
+src="02误差和数据处理（答案）.files/image143.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>双边检验</span><span
+lang=EN-US>, 90%</span><span style='font-family:宋体'>置信度用</span><span
+lang=EN-US>95%</span><span style='font-family:宋体'>的单边</span><span lang=EN-US>F</span><span
+style='font-family:宋体'>表</span><span lang=EN-US>,&nbsp; <i>F</i><sub>0.05</sub></span><sub><span
+style='font-family:宋体'>，</span><span lang=EN-US>3</span></sub><sub><span
+style='font-family:宋体'>，</span><span lang=EN-US>3</span></sub><span lang=EN-US>=9.28&gt;<i>F</i></span><sub><span
+style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>无显著性差异。求合并方差</span><span
+lang=EN-US><b><span style='position:relative;top:16.0pt'><img width=311
+height=48 src="02误差和数据处理（答案）.files/image144.png"></span></b>(%)</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US><span
+style='position:relative;top:16.0pt'><img width=139 height=51
+src="02误差和数据处理（答案）.files/image145.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>=<span
+style='position:relative;top:13.0pt'><img width=148 height=42
+src="02误差和数据处理（答案）.files/image146.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><i><span lang=EN-US>t</span></i><sub><span
+lang=EN-US>0.10,6 </span></sub><span lang=EN-US>= 1.94&gt;<i>t</i></span><sub><span
+style='font-family:宋体'>计</span></sub><span lang=EN-US>&nbsp; 90%</span><span
+style='font-family:宋体'>把握认为两种方法间无显著性差异。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4229</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>解：</span><span lang=EN-US><span style='position:relative;
+top:30.0pt'><img width=212 height=69 src="02误差和数据处理（答案）.files/image147.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>单边检验，</span><i><span lang=EN-US>u</span></i><sub><span
+lang=EN-US>0.10</span></sub><span lang=EN-US>=1.64&lt;<i>u</i></span><sub><span
+style='font-family:宋体'>计</span></sub></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US>95%</span><span style='font-family:宋体'>把握认为纯度有明显提高。</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=EN-US>4230</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+style='font-family:宋体'>解：（</span><span lang=EN-US>1</span><span
+style='font-family:宋体'>）</span><span lang=EN-US><span style='position:relative;
+top:3.0pt'><img width=13 height=23 src="02误差和数据处理（答案）.files/image133.png"></span>=1.28%</span></p>
+
+<p class=MsoNormal style='margin-left:42.5pt;text-indent:21.25pt;line-height:
+150%'><i><span lang=EN-US>E</span></i><sub><span lang=EN-US>a</span></sub><span
+lang=EN-US>=1.28%-1.31%= </span><span lang=EN-US style='font-family:Symbol'>-</span><span
+lang=EN-US>0.03%</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><i><span
+lang=EN-US>E</span></i><sub><span lang=EN-US>r</span></sub><span lang=EN-US>=<span
+style='position:relative;top:14.0pt'><img width=240 height=44
+src="02误差和数据处理（答案）.files/image148.png"></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (2) <span
+style='position:relative;top:3.0pt'><img width=13 height=23
+src="02误差和数据处理（答案）.files/image123.png"></span>=1.28%, <i>s</i>=0.015%</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+lang=EN-US><span style='position:relative;top:30.0pt'><img width=195 height=69
+src="02误差和数据处理（答案）.files/image149.png"></span></span></p>
+
+<p class=MsoNormal><i><span lang=EN-US>t</span></i><sub><span lang=EN-US>0.05,2&nbsp;
+</span></sub><span lang=EN-US>= 4.30&gt; <i>t</i></span><sub><span
+style='font-family:宋体'>计</span></sub><span lang=EN-US>, </span><span
+style='font-family:宋体'>有</span><span lang=EN-US>95%</span><span
+style='font-family:宋体'>的把握认为平均值与标准值无显著性差异。</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection12 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection13 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>4231</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4232</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4233</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>（</span><span
+lang=EN-US>D</span><span style='font-family:宋体'>）</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4234</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C) </span></p>
+
+<p class=MsoNormal><span lang=EN-US>4235</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>（</span><span
+lang=EN-US>C</span><span style='font-family:宋体'>）</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4236</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>（</span><span
+lang=EN-US>B</span><span style='font-family:宋体'>）</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4237</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>（</span><span
+lang=EN-US>D</span><span style='font-family:宋体'>）</span> </p>
+
+<p class=MsoNormal><span lang=EN-US>4238</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>（</span><span
+lang=EN-US>C</span><span style='font-family:宋体'>）</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4239</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>（</span><span
+lang=EN-US>C</span><span style='font-family:宋体'>）</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection14 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>4240</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：先计算方括号内：</span><span
+lang=EN-US><span style='position:relative;top:5.0pt'><img width=252 height=28
+src="02误差和数据处理（答案）.files/image150.png"></span></span></p>
+
+<p class=MsoNormal align=left style='margin-left:42.5pt;text-align:left;
+text-indent:21.5pt'><span style='font-family:宋体'>原式</span><span lang=EN-US>=<span
+style='position:relative;top:5.0pt'><img width=12 height=23
+src="02误差和数据处理（答案）.files/image090.png"></span><span style='position:relative;
+top:14.0pt'><img width=157 height=39 src="02误差和数据处理（答案）.files/image151.png"></span></span><span
+style='font-family:宋体'>，</span><span lang=EN-US>&nbsp; <span style='position:
+relative;top:24.0pt'><img width=283 height=65
+src="02误差和数据处理（答案）.files/image152.png"></span></span></p>
+
+<p class=MsoNormal align=left style='margin-left:42.5pt;text-align:left;
+text-indent:21.5pt'><span lang=EN-US>&nbsp;</span><span style='font-family:
+宋体'>结果为：</span><span lang=EN-US>1.7</span><span style='font-family:宋体'>（</span><span
+style='font-family:宋体'>±</span><span lang=EN-US>0.2</span><span
+style='font-family:宋体'>）×</span><span lang=EN-US>10<sup>-6</sup></span></p>
+
+<p class=MsoNormal><span lang=EN-US>4241</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span><i><span
+lang=EN-US>S</span></i><sub><span lang=EN-US>R</span></sub><span lang=EN-US>=<span
+style='position:relative;top:4.0pt'><img width=121 height=24
+src="02误差和数据处理（答案）.files/image153.png"></span>=0.16</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i>R</i>=396.3</span><span style='font-family:宋体'>（</span><span
+style='font-family:宋体'>±<span lang=EN-US>0.2</span>）</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:宋体'>4242</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt'><span style='font-family:宋体'>相对误差：<span
+lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style='position:relative;
+top:12.0pt'><img width=231 height=39 src="02误差和数据处理（答案）.files/image154.png"></span>&nbsp;&nbsp; </span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt'><span style='font-family:宋体'>绝对误差：<i><span
+lang=EN-US> E</span></i><sub><span lang=EN-US>a</span></sub><span lang=EN-US>=0.035<i>R
+</i>= 0.035</span>×<span lang=EN-US>0.010406 = 0.0004</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>校正值：</span><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>C</i>=
+-<i>E</i><sub>a</sub>= -0.0004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>结果为：</span><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.0104</span><span
+style='font-family:宋体'>－</span><span lang=EN-US>0.0004</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4243</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：<span
+lang=EN-US><span style='position:relative;top:15.0pt'><img width=247 height=42
+src="02误差和数据处理（答案）.files/image155.png"></span>&nbsp;&nbsp;&nbsp; &nbsp; <i>S</i><sub>v1</sub>=
+<i>S</i><sub>1 </sub>= 0.02 mol/L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>S</i><sub>v2</sub><sup>2</sup>=
+<i>S</i><sub>2</sub><sup>2</sup> + S<sub>2</sub><sup>2 </sup>= 0.01<sup>2 </sup>+
+0.01<sup>2 </sup>= 2</span>×<span lang=EN-US>0.01<sup>2</sup></span>（<span
+lang=EN-US>mol/L</span>）<sup><span lang=EN-US>2</span></sup><span lang=EN-US>&nbsp;&nbsp;&nbsp; </span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US
+style='font-family:宋体'>&nbsp;&nbsp;&nbsp; <span style='position:relative;
+top:15.0pt'><img width=289 height=46 src="02误差和数据处理（答案）.files/image156.png"></span>&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US
+style='font-family:宋体'>&nbsp;&nbsp;&nbsp; <i>S</i><sub>c1</sub><sup>2</sup>= <i>c</i><sub>1</sub><sup>2</sup></span><span
+style='font-family:宋体'>×<span lang=EN-US>1.14</span>×<span lang=EN-US>10<sup>-6</sup>
+= 0.1250<sup>2</sup></span>×<span lang=EN-US>1.14</span>×<span lang=EN-US>10<sup>-6</sup>
+= 1.78</span>×<span lang=EN-US>10<sup>-8</sup> (mol/L)<sup>2</sup> </span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US
+style='font-family:宋体'>&nbsp;&nbsp;&nbsp; <i>S</i><sub>c1 </sub>= 1.3</span><span
+style='font-family:宋体'>×<span lang=EN-US>10<sup>-4</sup> (mol/L)</span></span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US
+style='font-family:宋体'>&nbsp;&nbsp;&nbsp; <i>c</i><sub>1</sub>= <i>c</i>(NaOH)=
+(0.1000</span><span lang=EN-US style='font-family:Symbol'>±</span><span
+lang=EN-US style='font-family:宋体'>0.0001)(mol/L)</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:宋体'>4244</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:宋体'>&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:宋体'>解：（<span lang=EN-US>a</span>）<i><span lang=EN-US>S</span></i><sub><span
+lang=EN-US>R</span></sub><span lang=EN-US>&nbsp; =<span style='position:relative;
+top:4.0pt'><img width=141 height=27 src="02误差和数据处理（答案）.files/image157.png"></span></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US style='font-family:宋体'>(b)<span style='position:relative;top:12.0pt'><img
+width=195 height=37 src="02误差和数据处理（答案）.files/image158.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>(c) <i>R </i>= 23.8(</span><span style='font-family:宋体'>±</span><span
+lang=EN-US>0.2)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4245</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt'><span style='font-family:宋体'>解：</span></p>
+
+<p class=MsoNormal><span lang=EN-US><span style='position:relative;top:45.0pt'><img
+width=320 height=115 src="02误差和数据处理（答案）.files/image159.png"></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>4246</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span style='font-family:宋体'>解：</span></p>
+
+<p class=MsoNormal style='margin-left:60.5pt;text-indent:-18.0pt'><span
+lang=EN-US>(1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><i><span
+lang=EN-US>E</span></i><sub><span lang=EN-US>a </span></sub><span lang=EN-US>= 0.03
++ (-0.001)</span><span style='font-family:宋体'>－</span><span lang=EN-US>(-0.01) =
+0.039 <span style='position:relative;top:3.0pt'><img width=45 height=19
+src="02误差和数据处理（答案）.files/image160.png"></span></span></p>
+
+<p class=MsoNormal style='margin-left:42.5pt;text-indent:18.0pt'><i><span
+lang=EN-US>R</span></i><span lang=EN-US> = 0.57(+0.04)</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:21.25pt'><span
+lang=EN-US>(2) <span style='position:relative;top:12.0pt'><img width=246
+height=41 src="02误差和数据处理（答案）.files/image161.png"></span>,</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:42.5pt;margin-bottom:.0001pt;text-indent:21.25pt'><i><span
+lang=EN-US>E</span></i><sub><span lang=EN-US>a </span></sub><span lang=EN-US>= 0.0312</span><span
+style='font-family:宋体'>×</span><span lang=EN-US>(-0.022) = - 0.0007&nbsp;&nbsp;
+</span></p>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+0cm;margin-left:42.5pt;margin-bottom:.0001pt;text-indent:21.25pt'><i><span
+lang=EN-US>R </span></i><span lang=EN-US>= 0.0312 (-0.0007)</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection15 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection16 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>4247</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4248 </span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4249</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4250</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4251</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4252</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4253</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4254</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4255</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4256</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4257</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4258</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4259</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4260</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4261</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4262</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4263</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4264</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4265</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4266</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4267</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4268</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4269</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4270</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4271</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4272</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4273</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4274 </span></p>
+
+<p class=MsoNormal style='margin-left:39.25pt;text-indent:-18.0pt'><span
+lang=EN-US>(A)<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4275</span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4276</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(C)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4277</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4278</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(B)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4279</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4280</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4281</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(A)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4282</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>4283</span></p>
+
+<p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;(D)</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:10.5pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection17 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

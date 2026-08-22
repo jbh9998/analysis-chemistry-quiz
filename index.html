@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#146c72">
+  <title>分析化学刷题</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div>
+        <p class="eyebrow">ANALYTICAL CHEMISTRY</p>
+        <h1>分析化学刷题</h1>
+      </div>
+      <button class="icon-button" id="open-wrong-book" type="button" aria-label="打开错题本" title="错题本">
+        <span aria-hidden="true">★</span><b id="wrong-count">0</b>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="controls" aria-label="练习设置">
+      <div class="control-row mode-row" role="group" aria-label="练习模式">
+        <button class="mode-button is-active" type="button" data-mode="random">随机练习</button>
+        <button class="mode-button" type="button" data-mode="chapter">章节练习</button>
+        <button class="mode-button" type="button" data-mode="wrong">错题练习</button>
+      </div>
+      <label class="chapter-control" for="chapter-select">
+        <span>练习范围</span>
+        <select id="chapter-select" aria-label="选择章节"></select>
+      </label>
+      <div class="utility-row">
+        <button class="secondary-button" id="import-button" type="button">导入 Excel 题库</button>
+        <button class="secondary-button" id="template-button" type="button">下载导入模板</button>
+        <input id="excel-input" type="file" accept=".xlsx,.xls,.csv" hidden>
+      </div>
+    </section>
+
+    <section class="progress-band" aria-live="polite">
+      <span id="chapter-summary">正在加载题库…</span>
+      <span id="practice-summary">答对 0 题</span>
+    </section>
+
+    <section class="question-panel" id="question-panel" aria-live="polite">
+      <div class="question-meta">
+        <span id="question-chapter">章节</span>
+        <span id="question-number">第 1 题</span>
+      </div>
+      <h2 id="question-text">题目加载中…</h2>
+      <div class="question-images" id="question-images"></div>
+      <form id="answer-form" class="option-list" aria-label="题目选项"></form>
+      <div id="feedback" class="feedback" hidden></div>
+      <div class="action-row">
+        <button class="primary-button" id="submit-button" type="button">提交答案</button>
+        <button class="next-button" id="next-button" type="button">下一题 <span aria-hidden="true">→</span></button>
+      </div>
+      <p id="selection-hint" class="selection-hint">请选择一个选项后提交。</p>
+    </section>
+
+    <section id="empty-state" class="empty-state" hidden>
+      <h2>这里还没有题目</h2>
+      <p>可切换章节、导入 Excel，或在正常练习中积累错题。</p>
+    </section>
+  </main>
+
+  <dialog id="wrong-dialog" class="wrong-dialog">
+    <div class="dialog-header">
+      <div>
+        <p class="eyebrow">REVIEW</p>
+        <h2>错题本</h2>
+      </div>
+      <button class="icon-button" id="close-wrong-book" type="button" aria-label="关闭错题本" title="关闭">×</button>
+    </div>
+    <div id="wrong-list" class="wrong-list"></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="xlsx.full.min.js"></script>
+  <script src="question_bank.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
