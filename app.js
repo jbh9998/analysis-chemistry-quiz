@@ -195,7 +195,6 @@
     if (correct) {
       dom.feedback.textContent = "回答正确。";
       dom.feedback.className = "feedback good";
-      delete state.wrong[state.current.id];
     } else {
       dom.feedback.textContent = `回答错误。正确答案：${state.current.answer}。`;
       dom.feedback.className = "feedback bad";
