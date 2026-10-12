@@ -34,6 +34,7 @@
       <div class="utility-row">
         <button class="secondary-button" id="import-button" type="button">导入 Excel 题库</button>
         <button class="secondary-button" id="template-button" type="button">下载导入模板</button>
+        <button class="secondary-button" id="sync-button" type="button">☁ 云同步</button>
         <input id="excel-input" type="file" accept=".xlsx,.xls,.csv" hidden>
       </div>
     </section>
@@ -76,9 +77,24 @@
     <div id="wrong-list" class="wrong-list"></div>
   </dialog>
 
+  <dialog id="sync-dialog" class="wrong-dialog">
+    <div class="dialog-header">
+      <div>
+        <p class="eyebrow">CLOUD SYNC</p>
+        <h2>云同步</h2>
+      </div>
+      <button class="icon-button" id="close-sync-dialog" type="button" aria-label="关闭" title="关闭">×</button>
+    </div>
+    <div id="sync-content" class="wrong-list" style="padding: 1.5rem;">
+      <div id="sync-status"></div>
+      <div id="sync-actions" style="margin-top: 1.5rem;"></div>
+    </div>
+  </dialog>
+
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="xlsx.full.min.js"></script>
   <script src="question_bank.js"></script>
+  <script src="sync.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

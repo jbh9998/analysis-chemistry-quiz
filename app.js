@@ -4,7 +4,8 @@
   const STORAGE = {
     imported: "analysisChemistryQuiz.imported.v1",
     wrong: "analysisChemistryQuiz.wrong.v1",
-    stats: "analysisChemistryQuiz.stats.v1"
+    stats: "analysisChemistryQuiz.stats.v1",
+    practiced: "analysisChemistryQuiz.practiced.v1"
   };
   const state = {
     mode: "random",
@@ -15,8 +16,11 @@
     lastId: null,
     imported: readStorage(STORAGE.imported, []),
     wrong: readStorage(STORAGE.wrong, {}),
-    stats: readStorage(STORAGE.stats, { answered: 0, correct: 0 })
+    stats: readStorage(STORAGE.stats, { answered: 0, correct: 0 }),
+    practiced: readStorage(STORAGE.practiced, {})
   };
+
+  let syncManager = null;
 
   const dom = {
     chapterSelect: document.querySelector("#chapter-select"),
@@ -42,6 +46,7 @@
     importButton: document.querySelector("#import-button"),
     excelInput: document.querySelector("#excel-input"),
     templateButton: document.querySelector("#template-button"),
+    syncButton: document.querySelector("#sync-button"),
     toast: document.querySelector("#toast")
   };
 
@@ -114,9 +119,29 @@
     }
     dom.emptyState.hidden = true;
     dom.questionPanel.hidden = false;
-    const alternatives = pool.length > 1 ? pool.filter(question => question.id !== state.lastId) : pool;
+
+    const practiceKey = state.mode === "wrong" ? "wrong" : state.chapter;
+    if (!state.practiced[practiceKey]) {
+      state.practiced[practiceKey] = [];
+    }
+
+    let unpracticed = pool.filter(q => !state.practiced[practiceKey].includes(q.id));
+    if (!unpracticed.length) {
+      state.practiced[practiceKey] = [];
+      writeStorage(STORAGE.practiced, state.practiced);
+      unpracticed = pool;
+      showToast(`${practiceKey === "wrong" ? "错题本" : practiceKey === "all" ? "全部章节" : practiceKey}题目已全部练习，开启新一轮循环。`);
+    }
+
+    const alternatives = unpracticed.length > 1 ? unpracticed.filter(question => question.id !== state.lastId) : unpracticed;
     state.current = alternatives[Math.floor(Math.random() * alternatives.length)];
     state.lastId = state.current.id;
+
+    if (!state.practiced[practiceKey].includes(state.current.id)) {
+      state.practiced[practiceKey].push(state.current.id);
+      writeStorage(STORAGE.practiced, state.practiced);
+    }
+
     state.selected = null;
     state.submitted = false;
     dom.questionChapter.textContent = state.current.chapter;
@@ -363,6 +388,126 @@
     dom.modeButtons.forEach(button => button.classList.toggle("is-active", button.dataset.mode === state.mode));
   }
 
+  function getCurrentData() {
+    return {
+      practiced: state.practiced,
+      wrong: state.wrong,
+      stats: state.stats,
+      imported: state.imported
+    };
+  }
+
+  function loadSyncData(data) {
+    if (data.practiced) {
+      state.practiced = data.practiced;
+      writeStorage(STORAGE.practiced, state.practiced);
+    }
+    if (data.wrong) {
+      state.wrong = data.wrong;
+      writeStorage(STORAGE.wrong, state.wrong);
+    }
+    if (data.stats) {
+      state.stats = data.stats;
+      writeStorage(STORAGE.stats, state.stats);
+    }
+    if (data.imported) {
+      state.imported = data.imported;
+      writeStorage(STORAGE.imported, state.imported);
+    }
+    updateChapterControl();
+    updateSummary();
+    renderQuestion();
+  }
+
+  function showSyncDialog() {
+    const syncDialog = document.querySelector("#sync-dialog");
+    const syncStatus = document.querySelector("#sync-status");
+    const syncActions = document.querySelector("#sync-actions");
+
+    syncStatus.innerHTML = "";
+    syncActions.innerHTML = "";
+
+    if (syncManager.isEnabled()) {
+      const code = syncManager.getSyncCode();
+      syncStatus.innerHTML = `
+        <p style="margin-bottom: 1rem;">云同步已启用</p>
+        <div style="background: #f5f5f5; padding: 1rem; border-radius: 4px; margin-bottom: 1rem;">
+          <p style="font-size: 0.875rem; color: #666; margin-bottom: 0.5rem;">分享码（在其他设备输入此码即可同步）</p>
+          <p style="font-family: monospace; font-size: 1rem; word-break: break-all;">${code}</p>
+        </div>
+        <p style="font-size: 0.875rem; color: #666;">数据会自动同步到云端，30秒自动拉取一次更新。</p>
+      `;
+
+      const pushBtn = document.createElement("button");
+      pushBtn.textContent = "立即上传数据";
+      pushBtn.className = "secondary-button";
+      pushBtn.style.marginRight = "0.5rem";
+      pushBtn.addEventListener("click", async () => {
+        const success = await syncManager.pushData(getCurrentData());
+        showToast(success ? "数据已上传" : "上传失败");
+      });
+
+      const disableBtn = document.createElement("button");
+      disableBtn.textContent = "停用云同步";
+      disableBtn.className = "secondary-button";
+      disableBtn.addEventListener("click", () => {
+        syncManager.disableSync();
+        showToast("已停用云同步");
+        syncDialog.close();
+      });
+
+      syncActions.append(pushBtn, disableBtn);
+    } else {
+      syncStatus.innerHTML = `
+        <p style="margin-bottom: 1rem;">云同步可以让您在多个设备间同步刷题进度、错题本和导入的题库。</p>
+        <p style="font-size: 0.875rem; color: #666; margin-bottom: 1rem;">无需登录，通过分享码即可在其他设备同步。</p>
+      `;
+
+      const createBtn = document.createElement("button");
+      createBtn.textContent = "创建新的同步";
+      createBtn.className = "secondary-button";
+      createBtn.style.marginRight = "0.5rem";
+      createBtn.addEventListener("click", async () => {
+        try {
+          const { syncId, syncKey } = await syncManager.createSync();
+          await syncManager.pushData(getCurrentData());
+          syncManager.startAutoSync(data => loadSyncData(data));
+          showToast("云同步已创建");
+          showSyncDialog();
+        } catch (error) {
+          showToast("创建失败，请稍后重试");
+        }
+      });
+
+      const loadBtn = document.createElement("button");
+      loadBtn.textContent = "输入分享码";
+      loadBtn.className = "secondary-button";
+      loadBtn.addEventListener("click", () => {
+        const code = prompt("请输入分享码：");
+        if (!code) return;
+
+        const parsed = syncManager.parseSyncCode(code);
+        if (!parsed) {
+          showToast("分享码格式错误");
+          return;
+        }
+
+        syncManager.loadSync(parsed.syncId, parsed.syncKey).then(data => {
+          loadSyncData(data);
+          syncManager.startAutoSync(data => loadSyncData(data));
+          showToast("已加载云端数据");
+          syncDialog.close();
+        }).catch(() => {
+          showToast("加载失败，请检查分享码");
+        });
+      });
+
+      syncActions.append(createBtn, loadBtn);
+    }
+
+    syncDialog.showModal();
+  }
+
   function bindEvents() {
     dom.modeButtons.forEach(button => button.addEventListener("click", () => {
       state.mode = button.dataset.mode;
@@ -385,6 +530,20 @@
       event.target.value = "";
     });
     dom.templateButton.addEventListener("click", downloadTemplate);
+    dom.syncButton.addEventListener("click", showSyncDialog);
+    document.querySelector("#close-sync-dialog").addEventListener("click", () => {
+      document.querySelector("#sync-dialog").close();
+    });
+  }
+
+  if (window.SyncManager) {
+    syncManager = new window.SyncManager();
+    if (syncManager.isEnabled()) {
+      syncManager.pullData().then(data => {
+        if (data) loadSyncData(data);
+      });
+      syncManager.startAutoSync(data => loadSyncData(data));
+    }
   }
 
   bindEvents();
