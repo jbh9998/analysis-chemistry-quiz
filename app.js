@@ -137,11 +137,6 @@
     state.current = alternatives[Math.floor(Math.random() * alternatives.length)];
     state.lastId = state.current.id;
 
-    if (!state.practiced[practiceKey].includes(state.current.id)) {
-      state.practiced[practiceKey].push(state.current.id);
-      writeStorage(STORAGE.practiced, state.practiced);
-    }
-
     state.selected = null;
     state.submitted = false;
     dom.questionChapter.textContent = state.current.chapter;
@@ -212,6 +207,16 @@
     state.stats.answered += 1;
     if (correct) state.stats.correct += 1;
     writeStorage(STORAGE.stats, state.stats);
+
+    const practiceKey = state.mode === "wrong" ? "wrong" : state.chapter;
+    if (!state.practiced[practiceKey]) {
+      state.practiced[practiceKey] = [];
+    }
+    if (!state.practiced[practiceKey].includes(state.current.id)) {
+      state.practiced[practiceKey].push(state.current.id);
+      writeStorage(STORAGE.practiced, state.practiced);
+    }
+
     [...dom.answerForm.children].forEach(button => {
       button.disabled = true;
       if (button.dataset.key === state.current.answer) button.classList.add("is-correct");
